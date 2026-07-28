@@ -118,7 +118,7 @@ export default function Home() {
           <button className={view === "calendar" ? "active" : ""} onClick={() => setView("calendar")}><CalendarBlank /> Activity calendar</button>
         </nav>
         <div className="topic-nav"><p>TOPIC FILTER</p><button className={activeTopic === "All Topics" ? "selected" : ""} onClick={() => setActiveTopic("All Topics")}>All Topics <span>{total}</span></button>{topics.map(t => <button key={t.id} className={activeTopic === t.name ? "selected" : ""} onClick={() => { setActiveTopic(t.name); setView("dashboard"); }}>{t.name}<span>{t.questions.length}</span></button>)}</div>
-        <div className="sync-pill"><CloudArrowUp /><span>{syncState}</span></div>
+        <div className="sidebar-footer"><div className="sync-pill"><CloudArrowUp /><span>{syncState}</span></div><form action="/api/auth/logout" method="post"><button className="logout-btn" type="submit">Sign out</button></form></div>
       </aside>
 
       <section className="content">

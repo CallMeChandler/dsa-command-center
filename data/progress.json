@@ -1,7 +1,13 @@
 {
   "version": 1,
-  "updatedAt": null,
-  "completed": {},
+  "updatedAt": "2026-07-28T17:14:43.579Z",
+  "completed": {
+    "3-19": {
+      "completedAt": "2026-07-28T17:14:41.843Z",
+      "title": "Remove Nth Node From End of List",
+      "topic": "Fast/Slow Pointers (Linked List)"
+    }
+  },
   "notes": {},
   "dailyGoal": 2,
   "streakFreeze": 0

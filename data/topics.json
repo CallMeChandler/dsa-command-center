@@ -1,0 +1,1136 @@
+[
+  {
+    "id": 1,
+    "name": "Sliding Window",
+    "questions": [
+      {
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "slug": "longest-substring-without-repeating-characters",
+        "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+      },
+      {
+        "number": 76,
+        "title": "Minimum Window Substring",
+        "slug": "minimum-window-substring",
+        "url": "https://leetcode.com/problems/minimum-window-substring/"
+      },
+      {
+        "number": 209,
+        "title": "Minimum Size Subarray Sum",
+        "slug": "minimum-size-subarray-sum",
+        "url": "https://leetcode.com/problems/minimum-size-subarray-sum/"
+      },
+      {
+        "number": 424,
+        "title": "Longest Repeating Character Replacement",
+        "slug": "longest-repeating-character-replacement",
+        "url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+      },
+      {
+        "number": 567,
+        "title": "Permutation in String",
+        "slug": "permutation-in-string",
+        "url": "https://leetcode.com/problems/permutation-in-string/"
+      },
+      {
+        "number": 904,
+        "title": "Fruit Into Baskets",
+        "slug": "fruit-into-baskets",
+        "url": "https://leetcode.com/problems/fruit-into-baskets/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Two Pointers",
+    "questions": [
+      {
+        "number": 11,
+        "title": "Container With Most Water",
+        "slug": "container-with-most-water",
+        "url": "https://leetcode.com/problems/container-with-most-water/"
+      },
+      {
+        "number": 15,
+        "title": "3Sum",
+        "slug": "3sum",
+        "url": "https://leetcode.com/problems/3sum/"
+      },
+      {
+        "number": 16,
+        "title": "3Sum Closest",
+        "slug": "3sum-closest",
+        "url": "https://leetcode.com/problems/3sum-closest/"
+      },
+      {
+        "number": 18,
+        "title": "4Sum",
+        "slug": "4sum",
+        "url": "https://leetcode.com/problems/4sum/"
+      },
+      {
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "slug": "trapping-rain-water",
+        "url": "https://leetcode.com/problems/trapping-rain-water/"
+      },
+      {
+        "number": 167,
+        "title": "Two Sum II - Input Array Is Sorted",
+        "slug": "two-sum-ii-input-array-is-sorted",
+        "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Fast/Slow Pointers (Linked List)",
+    "questions": [
+      {
+        "number": 141,
+        "title": "Linked List Cycle",
+        "slug": "linked-list-cycle",
+        "url": "https://leetcode.com/problems/linked-list-cycle/"
+      },
+      {
+        "number": 142,
+        "title": "Linked List Cycle II",
+        "slug": "linked-list-cycle-ii",
+        "url": "https://leetcode.com/problems/linked-list-cycle-ii/"
+      },
+      {
+        "number": 19,
+        "title": "Remove Nth Node From End of List",
+        "slug": "remove-nth-node-from-end-of-list",
+        "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+      },
+      {
+        "number": 876,
+        "title": "Middle of the Linked List",
+        "slug": "middle-of-the-linked-list",
+        "url": "https://leetcode.com/problems/middle-of-the-linked-list/"
+      },
+      {
+        "number": 160,
+        "title": "Intersection of Two Linked Lists",
+        "slug": "intersection-of-two-linked-lists",
+        "url": "https://leetcode.com/problems/intersection-of-two-linked-lists/"
+      },
+      {
+        "number": 234,
+        "title": "Palindrome Linked List",
+        "slug": "palindrome-linked-list",
+        "url": "https://leetcode.com/problems/palindrome-linked-list/"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Binary Search on Sorted Data",
+    "questions": [
+      {
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "slug": "search-in-rotated-sorted-array",
+        "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+      },
+      {
+        "number": 34,
+        "title": "Find First and Last Position of Element in Sorted Array",
+        "slug": "find-first-and-last-position-of-element-in-sorted-array",
+        "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+      },
+      {
+        "number": 35,
+        "title": "Search Insert Position",
+        "slug": "search-insert-position",
+        "url": "https://leetcode.com/problems/search-insert-position/"
+      },
+      {
+        "number": 153,
+        "title": "Find Minimum in Rotated Sorted Array",
+        "slug": "find-minimum-in-rotated-sorted-array",
+        "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+      },
+      {
+        "number": 162,
+        "title": "Find Peak Element",
+        "slug": "find-peak-element",
+        "url": "https://leetcode.com/problems/find-peak-element/"
+      },
+      {
+        "number": 704,
+        "title": "Binary Search",
+        "slug": "binary-search",
+        "url": "https://leetcode.com/problems/binary-search/"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Binary Search on Answer",
+    "questions": [
+      {
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "slug": "koko-eating-bananas",
+        "url": "https://leetcode.com/problems/koko-eating-bananas/"
+      },
+      {
+        "number": 1011,
+        "title": "Capacity To Ship Packages Within D Days",
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/"
+      },
+      {
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "slug": "split-array-largest-sum",
+        "url": "https://leetcode.com/problems/split-array-largest-sum/"
+      },
+      {
+        "number": 774,
+        "title": "Minimize Max Distance to Gas Station",
+        "slug": "minimize-max-distance-to-gas-station",
+        "url": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/"
+      },
+      {
+        "number": 1283,
+        "title": "Find the Smallest Divisor Given a Threshold",
+        "slug": "find-the-smallest-divisor-given-a-threshold",
+        "url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/"
+      },
+      {
+        "number": 1482,
+        "title": "Minimum Number of Days to Make m Bouquets",
+        "slug": "minimum-number-of-days-to-make-m-bouquets",
+        "url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Hashing / Frequency Maps",
+    "questions": [
+      {
+        "number": 1,
+        "title": "Two Sum",
+        "slug": "two-sum",
+        "url": "https://leetcode.com/problems/two-sum/"
+      },
+      {
+        "number": 49,
+        "title": "Group Anagrams",
+        "slug": "group-anagrams",
+        "url": "https://leetcode.com/problems/group-anagrams/"
+      },
+      {
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "slug": "longest-consecutive-sequence",
+        "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
+      },
+      {
+        "number": 217,
+        "title": "Contains Duplicate",
+        "slug": "contains-duplicate",
+        "url": "https://leetcode.com/problems/contains-duplicate/"
+      },
+      {
+        "number": 242,
+        "title": "Valid Anagram",
+        "slug": "valid-anagram",
+        "url": "https://leetcode.com/problems/valid-anagram/"
+      },
+      {
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "slug": "top-k-frequent-elements",
+        "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Prefix Sum / Running Sum",
+    "questions": [
+      {
+        "number": 303,
+        "title": "Range Sum Query - Immutable",
+        "slug": "range-sum-query-immutable",
+        "url": "https://leetcode.com/problems/range-sum-query-immutable/"
+      },
+      {
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "slug": "subarray-sum-equals-k",
+        "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+      },
+      {
+        "number": 724,
+        "title": "Find Pivot Index",
+        "slug": "find-pivot-index",
+        "url": "https://leetcode.com/problems/find-pivot-index/"
+      },
+      {
+        "number": 930,
+        "title": "Binary Subarrays With Sum",
+        "slug": "binary-subarrays-with-sum",
+        "url": "https://leetcode.com/problems/binary-subarrays-with-sum/"
+      },
+      {
+        "number": 974,
+        "title": "Subarray Sums Divisible by K",
+        "slug": "subarray-sums-divisible-by-k",
+        "url": "https://leetcode.com/problems/subarray-sums-divisible-by-k/"
+      },
+      {
+        "number": 523,
+        "title": "Continuous Subarray Sum",
+        "slug": "continuous-subarray-sum",
+        "url": "https://leetcode.com/problems/continuous-subarray-sum/"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Difference Array / Range Updates",
+    "questions": [
+      {
+        "number": 370,
+        "title": "Range Addition",
+        "slug": "range-addition",
+        "url": "https://leetcode.com/problems/range-addition/"
+      },
+      {
+        "number": 1094,
+        "title": "Car Pooling",
+        "slug": "car-pooling",
+        "url": "https://leetcode.com/problems/car-pooling/"
+      },
+      {
+        "number": 1109,
+        "title": "Corporate Flight Bookings",
+        "slug": "corporate-flight-bookings",
+        "url": "https://leetcode.com/problems/corporate-flight-bookings/"
+      },
+      {
+        "number": 1893,
+        "title": "Check if All the Integers in a Range Are Covered",
+        "slug": "check-if-all-the-integers-in-a-range-are-covered",
+        "url": "https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/"
+      },
+      {
+        "number": 1943,
+        "title": "Describe the Painting",
+        "slug": "describe-the-painting",
+        "url": "https://leetcode.com/problems/describe-the-painting/"
+      },
+      {
+        "number": 2381,
+        "title": "Shifting Letters II",
+        "slug": "shifting-letters-ii",
+        "url": "https://leetcode.com/problems/shifting-letters-ii/"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Monotonic Stack",
+    "questions": [
+      {
+        "number": 739,
+        "title": "Daily Temperatures",
+        "slug": "daily-temperatures",
+        "url": "https://leetcode.com/problems/daily-temperatures/"
+      },
+      {
+        "number": 496,
+        "title": "Next Greater Element I",
+        "slug": "next-greater-element-i",
+        "url": "https://leetcode.com/problems/next-greater-element-i/"
+      },
+      {
+        "number": 503,
+        "title": "Next Greater Element II",
+        "slug": "next-greater-element-ii",
+        "url": "https://leetcode.com/problems/next-greater-element-ii/"
+      },
+      {
+        "number": 84,
+        "title": "Largest Rectangle in Histogram",
+        "slug": "largest-rectangle-in-histogram",
+        "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+      },
+      {
+        "number": 85,
+        "title": "Maximal Rectangle",
+        "slug": "maximal-rectangle",
+        "url": "https://leetcode.com/problems/maximal-rectangle/"
+      },
+      {
+        "number": 901,
+        "title": "Online Stock Span",
+        "slug": "online-stock-span",
+        "url": "https://leetcode.com/problems/online-stock-span/"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Monotonic Queue / Deque",
+    "questions": [
+      {
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "slug": "sliding-window-maximum",
+        "url": "https://leetcode.com/problems/sliding-window-maximum/"
+      },
+      {
+        "number": 862,
+        "title": "Shortest Subarray with Sum at Least K",
+        "slug": "shortest-subarray-with-sum-at-least-k",
+        "url": "https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/"
+      },
+      {
+        "number": 1425,
+        "title": "Constrained Subsequence Sum",
+        "slug": "constrained-subsequence-sum",
+        "url": "https://leetcode.com/problems/constrained-subsequence-sum/"
+      },
+      {
+        "number": 1438,
+        "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+        "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+        "url": "https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/"
+      },
+      {
+        "number": 1499,
+        "title": "Max Value of Equation",
+        "slug": "max-value-of-equation",
+        "url": "https://leetcode.com/problems/max-value-of-equation/"
+      },
+      {
+        "number": 1696,
+        "title": "Jump Game VI",
+        "slug": "jump-game-vi",
+        "url": "https://leetcode.com/problems/jump-game-vi/"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Heap / Top K",
+    "questions": [
+      {
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "slug": "kth-largest-element-in-an-array",
+        "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+      },
+      {
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "slug": "top-k-frequent-elements",
+        "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+      },
+      {
+        "number": 692,
+        "title": "Top K Frequent Words",
+        "slug": "top-k-frequent-words",
+        "url": "https://leetcode.com/problems/top-k-frequent-words/"
+      },
+      {
+        "number": 703,
+        "title": "Kth Largest Element in a Stream",
+        "slug": "kth-largest-element-in-a-stream",
+        "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/"
+      },
+      {
+        "number": 973,
+        "title": "K Closest Points to Origin",
+        "slug": "k-closest-points-to-origin",
+        "url": "https://leetcode.com/problems/k-closest-points-to-origin/"
+      },
+      {
+        "number": 1046,
+        "title": "Last Stone Weight",
+        "slug": "last-stone-weight",
+        "url": "https://leetcode.com/problems/last-stone-weight/"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Intervals",
+    "questions": [
+      {
+        "number": 56,
+        "title": "Merge Intervals",
+        "slug": "merge-intervals",
+        "url": "https://leetcode.com/problems/merge-intervals/"
+      },
+      {
+        "number": 57,
+        "title": "Insert Interval",
+        "slug": "insert-interval",
+        "url": "https://leetcode.com/problems/insert-interval/"
+      },
+      {
+        "number": 252,
+        "title": "Meeting Rooms",
+        "slug": "meeting-rooms",
+        "url": "https://leetcode.com/problems/meeting-rooms/"
+      },
+      {
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "slug": "meeting-rooms-ii",
+        "url": "https://leetcode.com/problems/meeting-rooms-ii/"
+      },
+      {
+        "number": 435,
+        "title": "Non-overlapping Intervals",
+        "slug": "non-overlapping-intervals",
+        "url": "https://leetcode.com/problems/non-overlapping-intervals/"
+      },
+      {
+        "number": 452,
+        "title": "Minimum Number of Arrows to Burst Balloons",
+        "slug": "minimum-number-of-arrows-to-burst-balloons",
+        "url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Greedy Scheduling / Sorting",
+    "questions": [
+      {
+        "number": 45,
+        "title": "Jump Game II",
+        "slug": "jump-game-ii",
+        "url": "https://leetcode.com/problems/jump-game-ii/"
+      },
+      {
+        "number": 55,
+        "title": "Jump Game",
+        "slug": "jump-game",
+        "url": "https://leetcode.com/problems/jump-game/"
+      },
+      {
+        "number": 406,
+        "title": "Queue Reconstruction by Height",
+        "slug": "queue-reconstruction-by-height",
+        "url": "https://leetcode.com/problems/queue-reconstruction-by-height/"
+      },
+      {
+        "number": 621,
+        "title": "Task Scheduler",
+        "slug": "task-scheduler",
+        "url": "https://leetcode.com/problems/task-scheduler/"
+      },
+      {
+        "number": 763,
+        "title": "Partition Labels",
+        "slug": "partition-labels",
+        "url": "https://leetcode.com/problems/partition-labels/"
+      },
+      {
+        "number": 134,
+        "title": "Gas Station",
+        "slug": "gas-station",
+        "url": "https://leetcode.com/problems/gas-station/"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Linked List Manipulation",
+    "questions": [
+      {
+        "number": 21,
+        "title": "Merge Two Sorted Lists",
+        "slug": "merge-two-sorted-lists",
+        "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+      },
+      {
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "slug": "merge-k-sorted-lists",
+        "url": "https://leetcode.com/problems/merge-k-sorted-lists/"
+      },
+      {
+        "number": 24,
+        "title": "Swap Nodes in Pairs",
+        "slug": "swap-nodes-in-pairs",
+        "url": "https://leetcode.com/problems/swap-nodes-in-pairs/"
+      },
+      {
+        "number": 25,
+        "title": "Reverse Nodes in k-Group",
+        "slug": "reverse-nodes-in-k-group",
+        "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/"
+      },
+      {
+        "number": 92,
+        "title": "Reverse Linked List II",
+        "slug": "reverse-linked-list-ii",
+        "url": "https://leetcode.com/problems/reverse-linked-list-ii/"
+      },
+      {
+        "number": 138,
+        "title": "Copy List with Random Pointer",
+        "slug": "copy-list-with-random-pointer",
+        "url": "https://leetcode.com/problems/copy-list-with-random-pointer/"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Tree DFS",
+    "questions": [
+      {
+        "number": 104,
+        "title": "Maximum Depth of Binary Tree",
+        "slug": "maximum-depth-of-binary-tree",
+        "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+      },
+      {
+        "number": 112,
+        "title": "Path Sum",
+        "slug": "path-sum",
+        "url": "https://leetcode.com/problems/path-sum/"
+      },
+      {
+        "number": 113,
+        "title": "Path Sum II",
+        "slug": "path-sum-ii",
+        "url": "https://leetcode.com/problems/path-sum-ii/"
+      },
+      {
+        "number": 543,
+        "title": "Diameter of Binary Tree",
+        "slug": "diameter-of-binary-tree",
+        "url": "https://leetcode.com/problems/diameter-of-binary-tree/"
+      },
+      {
+        "number": 124,
+        "title": "Binary Tree Maximum Path Sum",
+        "slug": "binary-tree-maximum-path-sum",
+        "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+      },
+      {
+        "number": 226,
+        "title": "Invert Binary Tree",
+        "slug": "invert-binary-tree",
+        "url": "https://leetcode.com/problems/invert-binary-tree/"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Tree BFS / Level Order",
+    "questions": [
+      {
+        "number": 102,
+        "title": "Binary Tree Level Order Traversal",
+        "slug": "binary-tree-level-order-traversal",
+        "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+      },
+      {
+        "number": 103,
+        "title": "Binary Tree Zigzag Level Order Traversal",
+        "slug": "binary-tree-zigzag-level-order-traversal",
+        "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
+      },
+      {
+        "number": 199,
+        "title": "Binary Tree Right Side View",
+        "slug": "binary-tree-right-side-view",
+        "url": "https://leetcode.com/problems/binary-tree-right-side-view/"
+      },
+      {
+        "number": 515,
+        "title": "Find Largest Value in Each Tree Row",
+        "slug": "find-largest-value-in-each-tree-row",
+        "url": "https://leetcode.com/problems/find-largest-value-in-each-tree-row/"
+      },
+      {
+        "number": 637,
+        "title": "Average of Levels in Binary Tree",
+        "slug": "average-of-levels-in-binary-tree",
+        "url": "https://leetcode.com/problems/average-of-levels-in-binary-tree/"
+      },
+      {
+        "number": 116,
+        "title": "Populating Next Right Pointers in Each Node",
+        "slug": "populating-next-right-pointers-in-each-node",
+        "url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "BST Problems",
+    "questions": [
+      {
+        "number": 98,
+        "title": "Validate Binary Search Tree",
+        "slug": "validate-binary-search-tree",
+        "url": "https://leetcode.com/problems/validate-binary-search-tree/"
+      },
+      {
+        "number": 99,
+        "title": "Recover Binary Search Tree",
+        "slug": "recover-binary-search-tree",
+        "url": "https://leetcode.com/problems/recover-binary-search-tree/"
+      },
+      {
+        "number": 230,
+        "title": "Kth Smallest Element in a BST",
+        "slug": "kth-smallest-element-in-a-bst",
+        "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+      },
+      {
+        "number": 235,
+        "title": "Lowest Common Ancestor of a Binary Search Tree",
+        "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+        "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+      },
+      {
+        "number": 450,
+        "title": "Delete Node in a BST",
+        "slug": "delete-node-in-a-bst",
+        "url": "https://leetcode.com/problems/delete-node-in-a-bst/"
+      },
+      {
+        "number": 700,
+        "title": "Search in a Binary Search Tree",
+        "slug": "search-in-a-binary-search-tree",
+        "url": "https://leetcode.com/problems/search-in-a-binary-search-tree/"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Backtracking Basics",
+    "questions": [
+      {
+        "number": 46,
+        "title": "Permutations",
+        "slug": "permutations",
+        "url": "https://leetcode.com/problems/permutations/"
+      },
+      {
+        "number": 47,
+        "title": "Permutations II",
+        "slug": "permutations-ii",
+        "url": "https://leetcode.com/problems/permutations-ii/"
+      },
+      {
+        "number": 77,
+        "title": "Combinations",
+        "slug": "combinations",
+        "url": "https://leetcode.com/problems/combinations/"
+      },
+      {
+        "number": 78,
+        "title": "Subsets",
+        "slug": "subsets",
+        "url": "https://leetcode.com/problems/subsets/"
+      },
+      {
+        "number": 90,
+        "title": "Subsets II",
+        "slug": "subsets-ii",
+        "url": "https://leetcode.com/problems/subsets-ii/"
+      },
+      {
+        "number": 39,
+        "title": "Combination Sum",
+        "slug": "combination-sum",
+        "url": "https://leetcode.com/problems/combination-sum/"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Backtracking with Constraints",
+    "questions": [
+      {
+        "number": 40,
+        "title": "Combination Sum II",
+        "slug": "combination-sum-ii",
+        "url": "https://leetcode.com/problems/combination-sum-ii/"
+      },
+      {
+        "number": 17,
+        "title": "Letter Combinations of a Phone Number",
+        "slug": "letter-combinations-of-a-phone-number",
+        "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+      },
+      {
+        "number": 79,
+        "title": "Word Search",
+        "slug": "word-search",
+        "url": "https://leetcode.com/problems/word-search/"
+      },
+      {
+        "number": 131,
+        "title": "Palindrome Partitioning",
+        "slug": "palindrome-partitioning",
+        "url": "https://leetcode.com/problems/palindrome-partitioning/"
+      },
+      {
+        "number": 51,
+        "title": "N-Queens",
+        "slug": "n-queens",
+        "url": "https://leetcode.com/problems/n-queens/"
+      },
+      {
+        "number": 52,
+        "title": "N-Queens II",
+        "slug": "n-queens-ii",
+        "url": "https://leetcode.com/problems/n-queens-ii/"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Graph BFS / DFS",
+    "questions": [
+      {
+        "number": 200,
+        "title": "Number of Islands",
+        "slug": "number-of-islands",
+        "url": "https://leetcode.com/problems/number-of-islands/"
+      },
+      {
+        "number": 695,
+        "title": "Max Area of Island",
+        "slug": "max-area-of-island",
+        "url": "https://leetcode.com/problems/max-area-of-island/"
+      },
+      {
+        "number": 733,
+        "title": "Flood Fill",
+        "slug": "flood-fill",
+        "url": "https://leetcode.com/problems/flood-fill/"
+      },
+      {
+        "number": 994,
+        "title": "Rotting Oranges",
+        "slug": "rotting-oranges",
+        "url": "https://leetcode.com/problems/rotting-oranges/"
+      },
+      {
+        "number": 1091,
+        "title": "Shortest Path in Binary Matrix",
+        "slug": "shortest-path-in-binary-matrix",
+        "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/"
+      },
+      {
+        "number": 1254,
+        "title": "Number of Closed Islands",
+        "slug": "number-of-closed-islands",
+        "url": "https://leetcode.com/problems/number-of-closed-islands/"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Topological Sort / DAG",
+    "questions": [
+      {
+        "number": 207,
+        "title": "Course Schedule",
+        "slug": "course-schedule",
+        "url": "https://leetcode.com/problems/course-schedule/"
+      },
+      {
+        "number": 210,
+        "title": "Course Schedule II",
+        "slug": "course-schedule-ii",
+        "url": "https://leetcode.com/problems/course-schedule-ii/"
+      },
+      {
+        "number": 802,
+        "title": "Find Eventual Safe States",
+        "slug": "find-eventual-safe-states",
+        "url": "https://leetcode.com/problems/find-eventual-safe-states/"
+      },
+      {
+        "number": 1462,
+        "title": "Course Schedule IV",
+        "slug": "course-schedule-iv",
+        "url": "https://leetcode.com/problems/course-schedule-iv/"
+      },
+      {
+        "number": 1203,
+        "title": "Sort Items by Groups Respecting Dependencies",
+        "slug": "sort-items-by-groups-respecting-dependencies",
+        "url": "https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/"
+      },
+      {
+        "number": 2115,
+        "title": "Find All Possible Recipes from Given Supplies",
+        "slug": "find-all-possible-recipes-from-given-supplies",
+        "url": "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Union Find / DSU",
+    "questions": [
+      {
+        "number": 547,
+        "title": "Number of Provinces",
+        "slug": "number-of-provinces",
+        "url": "https://leetcode.com/problems/number-of-provinces/"
+      },
+      {
+        "number": 684,
+        "title": "Redundant Connection",
+        "slug": "redundant-connection",
+        "url": "https://leetcode.com/problems/redundant-connection/"
+      },
+      {
+        "number": 1319,
+        "title": "Number of Operations to Make Network Connected",
+        "slug": "number-of-operations-to-make-network-connected",
+        "url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/"
+      },
+      {
+        "number": 1579,
+        "title": "Remove Max Number of Edges to Keep Graph Fully Traversable",
+        "slug": "remove-max-number-of-edges-to-keep-graph-fully-traversable",
+        "url": "https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/"
+      },
+      {
+        "number": 990,
+        "title": "Satisfiability of Equality Equations",
+        "slug": "satisfiability-of-equality-equations",
+        "url": "https://leetcode.com/problems/satisfiability-of-equality-equations/"
+      },
+      {
+        "number": 1202,
+        "title": "Smallest String With Swaps",
+        "slug": "smallest-string-with-swaps",
+        "url": "https://leetcode.com/problems/smallest-string-with-swaps/"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Shortest Path",
+    "questions": [
+      {
+        "number": 743,
+        "title": "Network Delay Time",
+        "slug": "network-delay-time",
+        "url": "https://leetcode.com/problems/network-delay-time/"
+      },
+      {
+        "number": 787,
+        "title": "Cheapest Flights Within K Stops",
+        "slug": "cheapest-flights-within-k-stops",
+        "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/"
+      },
+      {
+        "number": 1514,
+        "title": "Path with Maximum Probability",
+        "slug": "path-with-maximum-probability",
+        "url": "https://leetcode.com/problems/path-with-maximum-probability/"
+      },
+      {
+        "number": 1631,
+        "title": "Path With Minimum Effort",
+        "slug": "path-with-minimum-effort",
+        "url": "https://leetcode.com/problems/path-with-minimum-effort/"
+      },
+      {
+        "number": 1334,
+        "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+        "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+        "url": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/"
+      },
+      {
+        "number": 1976,
+        "title": "Number of Ways to Arrive at Destination",
+        "slug": "number-of-ways-to-arrive-at-destination",
+        "url": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "MST / Graph Greedy",
+    "questions": [
+      {
+        "number": 1584,
+        "title": "Min Cost to Connect All Points",
+        "slug": "min-cost-to-connect-all-points",
+        "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/"
+      },
+      {
+        "number": 1135,
+        "title": "Connecting Cities With Minimum Cost",
+        "slug": "connecting-cities-with-minimum-cost",
+        "url": "https://leetcode.com/problems/connecting-cities-with-minimum-cost/"
+      },
+      {
+        "number": 1168,
+        "title": "Optimize Water Distribution in a Village",
+        "slug": "optimize-water-distribution-in-a-village",
+        "url": "https://leetcode.com/problems/optimize-water-distribution-in-a-village/"
+      },
+      {
+        "number": 1489,
+        "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+        "slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+        "url": "https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/"
+      },
+      {
+        "number": 778,
+        "title": "Swim in Rising Water",
+        "slug": "swim-in-rising-water",
+        "url": "https://leetcode.com/problems/swim-in-rising-water/"
+      },
+      {
+        "number": 1102,
+        "title": "Path With Maximum Minimum Value",
+        "slug": "path-with-maximum-minimum-value",
+        "url": "https://leetcode.com/problems/path-with-maximum-minimum-value/"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Trie",
+    "questions": [
+      {
+        "number": 208,
+        "title": "Implement Trie (Prefix Tree)",
+        "slug": "implement-trie-prefix-tree",
+        "url": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+      },
+      {
+        "number": 211,
+        "title": "Design Add and Search Words Data Structure",
+        "slug": "design-add-and-search-words-data-structure",
+        "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/"
+      },
+      {
+        "number": 212,
+        "title": "Word Search II",
+        "slug": "word-search-ii",
+        "url": "https://leetcode.com/problems/word-search-ii/"
+      },
+      {
+        "number": 648,
+        "title": "Replace Words",
+        "slug": "replace-words",
+        "url": "https://leetcode.com/problems/replace-words/"
+      },
+      {
+        "number": 677,
+        "title": "Map Sum Pairs",
+        "slug": "map-sum-pairs",
+        "url": "https://leetcode.com/problems/map-sum-pairs/"
+      },
+      {
+        "number": 1268,
+        "title": "Search Suggestions System",
+        "slug": "search-suggestions-system",
+        "url": "https://leetcode.com/problems/search-suggestions-system/"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Bit Manipulation",
+    "questions": [
+      {
+        "number": 136,
+        "title": "Single Number",
+        "slug": "single-number",
+        "url": "https://leetcode.com/problems/single-number/"
+      },
+      {
+        "number": 137,
+        "title": "Single Number II",
+        "slug": "single-number-ii",
+        "url": "https://leetcode.com/problems/single-number-ii/"
+      },
+      {
+        "number": 191,
+        "title": "Number of 1 Bits",
+        "slug": "number-of-1-bits",
+        "url": "https://leetcode.com/problems/number-of-1-bits/"
+      },
+      {
+        "number": 338,
+        "title": "Counting Bits",
+        "slug": "counting-bits",
+        "url": "https://leetcode.com/problems/counting-bits/"
+      },
+      {
+        "number": 268,
+        "title": "Missing Number",
+        "slug": "missing-number",
+        "url": "https://leetcode.com/problems/missing-number/"
+      },
+      {
+        "number": 190,
+        "title": "Reverse Bits",
+        "slug": "reverse-bits",
+        "url": "https://leetcode.com/problems/reverse-bits/"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "1D DP Basics",
+    "questions": [
+      {
+        "number": 70,
+        "title": "Climbing Stairs",
+        "slug": "climbing-stairs",
+        "url": "https://leetcode.com/problems/climbing-stairs/"
+      },
+      {
+        "number": 198,
+        "title": "House Robber",
+        "slug": "house-robber",
+        "url": "https://leetcode.com/problems/house-robber/"
+      },
+      {
+        "number": 213,
+        "title": "House Robber II",
+        "slug": "house-robber-ii",
+        "url": "https://leetcode.com/problems/house-robber-ii/"
+      },
+      {
+        "number": 322,
+        "title": "Coin Change",
+        "slug": "coin-change",
+        "url": "https://leetcode.com/problems/coin-change/"
+      },
+      {
+        "number": 279,
+        "title": "Perfect Squares",
+        "slug": "perfect-squares",
+        "url": "https://leetcode.com/problems/perfect-squares/"
+      },
+      {
+        "number": 300,
+        "title": "Longest Increasing Subsequence",
+        "slug": "longest-increasing-subsequence",
+        "url": "https://leetcode.com/problems/longest-increasing-subsequence/"
+      }
+    ]
+  }
+]

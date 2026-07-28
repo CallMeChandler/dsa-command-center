@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-28T19:38:56.861Z",
+  "updatedAt": "2026-07-28T19:41:38.755Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -14,7 +14,8 @@
     }
   },
   "notes": {
-    "3-19": "There can be two methods, one can be the conventional two pass method, the other method slow and fast pointer method requires the fast to go (n+1) ahead first then start both together. Also Dummy Node helps reducing edge cases for head and increases modularity."
+    "3-19": "There can be two methods, one can be the conventional two pass method, the other method slow and fast pointer method requires the fast to go (n+1) ahead first then start both together. Also Dummy Node helps reducing edge cases for head and increases modularity.",
+    "19-17": "Tough and really good question honestly, the idea is to make a void backtrack function by yourself, where you firstly have to figure out, what is the recursive pattern for the base case and then call the backtrack function recursively with all the parameters. Main function is pretty straightforward. Can be asked in a high level OA or interview.\nREMARKS: Read again and REDO (might not be clear)"
   },
   "dailyGoal": 2,
   "streakFreeze": 0

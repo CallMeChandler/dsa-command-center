@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T17:32:13.091Z",
+  "updatedAt": "2026-07-29T18:03:53.533Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -21,6 +21,11 @@
       "completedAt": "2026-07-29T17:30:33.730Z",
       "title": "Two Sum",
       "topic": "Hashing / Frequency Maps"
+    },
+    "8-1109": {
+      "completedAt": "2026-07-29T18:03:51.020Z",
+      "title": "Corporate Flight Bookings",
+      "topic": "Difference Array / Range Updates"
     }
   },
   "notes": {

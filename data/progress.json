@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-28T19:41:38.755Z",
+  "updatedAt": "2026-07-29T08:47:28.082Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -15,7 +15,8 @@
   },
   "notes": {
     "3-19": "There can be two methods, one can be the conventional two pass method, the other method slow and fast pointer method requires the fast to go (n+1) ahead first then start both together. Also Dummy Node helps reducing edge cases for head and increases modularity.",
-    "19-17": "Tough and really good question honestly, the idea is to make a void backtrack function by yourself, where you firstly have to figure out, what is the recursive pattern for the base case and then call the backtrack function recursively with all the parameters. Main function is pretty straightforward. Can be asked in a high level OA or interview.\nREMARKS: Read again and REDO (might not be clear)"
+    "19-17": "Tough and really good question honestly, the idea is to make a void backtrack function by yourself, where you firstly have to figure out, what is the recursive pattern for the base case and then call the backtrack function recursively with all the parameters. Main function is pretty straightforward. Can be asked in a high level OA or interview.\nREMARKS: Read again and REDO (might not be clear)",
+    "8-1094": "Main Idea: from <= location < to\n\nBrute force uses two loops, for every location, check every trip and add passengers accordinly.\n\nOptimal Idea uses change array, that records passenger count change at every location, then loop on every location to build total passenger count and compare with capacity."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

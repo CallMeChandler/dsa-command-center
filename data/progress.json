@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T08:47:28.082Z",
+  "updatedAt": "2026-07-29T17:30:36.388Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -11,6 +11,16 @@
       "completedAt": "2026-07-28T19:38:55.297Z",
       "title": "Letter Combinations of a Phone Number",
       "topic": "Backtracking with Constraints"
+    },
+    "8-1094": {
+      "completedAt": "2026-07-29T08:47:27.894Z",
+      "title": "Car Pooling",
+      "topic": "Difference Array / Range Updates"
+    },
+    "6-1": {
+      "completedAt": "2026-07-29T17:30:33.730Z",
+      "title": "Two Sum",
+      "topic": "Hashing / Frequency Maps"
     }
   },
   "notes": {

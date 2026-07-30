@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-30T10:27:18.003Z",
+  "updatedAt": "2026-07-30T10:32:34.517Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -38,7 +38,8 @@
     "19-17": "Tough and really good question honestly, the idea is to make a void backtrack function by yourself, where you firstly have to figure out, what is the recursive pattern for the base case and then call the backtrack function recursively with all the parameters. Main function is pretty straightforward. Can be asked in a high level OA or interview.\nREMARKS: Read again and REDO (might not be clear)",
     "8-1094": "Main Idea: from <= location < to\n\nBrute force uses two loops, for every location, check every trip and add passengers accordinly.\n\nOptimal Idea uses change array, that records passenger count change at every location, then loop on every location to build total passenger count and compare with capacity.",
     "6-1": "Very common and easy interview question, use hashmaps and difference technique for optimal solution.\n\nA good question for interview can be why do we first check then update/add to the map: It is because so that we accidentally don't take the same i for both indices since repetition of elements is not allowed. Eg is nums=[3,3] target=6 will accidentally return {0,0} which will be deemed wrong.",
-    "8-1109": "Create a change array as in other range array problems and then fill that array after identifying the plus and minus indexes for the same.  Then use prefix sum to calculate the final seats for all respective flights and then copy the array to answer array and return. Easy question, alot like car pool."
+    "8-1109": "Create a change array as in other range array problems and then fill that array after identifying the plus and minus indexes for the same.  Then use prefix sum to calculate the final seats for all respective flights and then copy the array to answer array and return. Easy question, alot like car pool.",
+    "2-15": "Simple two pointer problem, just keep a check on handling the duplicates so just dont forget the i and i+1 and similar other 2 checks for l and r pointers as well otherwise straight forward question."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

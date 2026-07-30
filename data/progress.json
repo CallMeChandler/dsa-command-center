@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-30T14:06:58.010Z",
+  "updatedAt": "2026-07-30T16:51:17.147Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -40,6 +40,11 @@
     "2-18": {
       "completedAt": "2026-07-30T14:06:35.440Z",
       "title": "4Sum",
+      "topic": "Two Pointers"
+    },
+    "2-167": {
+      "completedAt": "2026-07-30T16:51:14.617Z",
+      "title": "Two Sum II - Input Array Is Sorted",
       "topic": "Two Pointers"
     }
   },

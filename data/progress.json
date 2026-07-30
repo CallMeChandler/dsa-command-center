@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-30T14:06:40.073Z",
+  "updatedAt": "2026-07-30T14:06:58.010Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -50,7 +50,8 @@
     "6-1": "Very common and easy interview question, use hashmaps and difference technique for optimal solution.\n\nA good question for interview can be why do we first check then update/add to the map: It is because so that we accidentally don't take the same i for both indices since repetition of elements is not allowed. Eg is nums=[3,3] target=6 will accidentally return {0,0} which will be deemed wrong.",
     "8-1109": "Create a change array as in other range array problems and then fill that array after identifying the plus and minus indexes for the same.  Then use prefix sum to calculate the final seats for all respective flights and then copy the array to answer array and return. Easy question, alot like car pool.",
     "2-15": "Simple two pointer problem, just keep a check on handling the duplicates so just dont forget the i and i+1 and similar other 2 checks for l and r pointers as well otherwise straight forward question.",
-    "2-16": "if (abs(sum-target)<abs(closest-target)){\n           closest=sum;\n} is the important part.\n\nAlso safest initialization of closest is nums[0]+nums[1]+nums[2]"
+    "2-16": "if (abs(sum-target)<abs(closest-target)){\n           closest=sum;\n} is the important part.\n\nAlso safest initialization of closest is nums[0]+nums[1]+nums[2]",
+    "2-18": "Almost same question as 3sum, just dont forget duplicate checks for i, j, l and r."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

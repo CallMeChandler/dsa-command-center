@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-30T17:39:58.675Z",
+  "updatedAt": "2026-07-30T17:40:57.670Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -62,7 +62,8 @@
     "2-15": "Simple two pointer problem, just keep a check on handling the duplicates so just dont forget the i and i+1 and similar other 2 checks for l and r pointers as well otherwise straight forward question.",
     "2-16": "if (abs(sum-target)<abs(closest-target)){\n           closest=sum;\n} is the important part.\n\nAlso safest initialization of closest is nums[0]+nums[1]+nums[2]",
     "2-18": "Almost same question as 3sum, just dont forget duplicate checks for i, j, l and r.",
-    "2-167": "Same two sum pattern, easy as shit, no real comments needed."
+    "2-167": "Same two sum pattern, easy as shit, no real comments needed.",
+    "2-11": "Really good question in my opinion, the thing is shorter side is more defining than the taller one, since the area depends on that, because water will overflow if we look only at the taller one and also, we move only short pointer in search for a better area answer."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

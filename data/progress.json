@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-31T15:06:39.161Z",
+  "updatedAt": "2026-07-31T15:07:25.588Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -86,7 +86,8 @@
     "2-11": "Really good question in my opinion, the thing is shorter side is more defining than the taller one, since the area depends on that, because water will overflow if we look only at the taller one and also, we move only short pointer in search for a better area answer.",
     "1-3": "The main idea of sliding window here is frequency based, we keep expanding the window until no character crosses frequency of 1, but as soon as it does we shrink the window from the left and maintain and max counter as well comparing it with current r-l+1 window size.",
     "1-209": "Pretty simple question, once you get the sliding window pattern, just difference is here no frequency checks you have to check sum >= target and while it is true just keep shortening the window until false.\n",
-    "1-904": "Refer to the solution, and revise this problem again, good pattern, basic idea is sliding window but since only two types are allowed at once, so we pop the leftmost type out of the freq map once its violated. A special if is included, so as to prevent the deletion of leftmost element but stale type still being present in the map."
+    "1-904": "Refer to the solution, and revise this problem again, good pattern, basic idea is sliding window but since only two types are allowed at once, so we pop the leftmost type out of the freq map once its violated. A special if is included, so as to prevent the deletion of leftmost element but stale type still being present in the map.",
+    "1-424": "for (int r = 0; r < n; r++) {\n            freq[s[r] - 'A']++;\n\n            maxFreq = max(maxFreq, freq[s[r] - 'A']);\n\n            while ((r - l + 1) - maxFreq > k) {\n                freq[s[l] - 'A']--;\n                l++;\n            }\n\n            maxLen = max(maxLen, r - l + 1);\n        }\n\nVery Important loop on how we access and store the maxFrequencies of a character and shrink the window.\n\nThe main idea is sliding window with a while check of window size-maxFreq>k"
   },
   "dailyGoal": 2,
   "streakFreeze": 0

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-30T17:40:57.670Z",
+  "updatedAt": "2026-07-31T08:22:02.378Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -51,6 +51,11 @@
       "completedAt": "2026-07-30T17:39:55.873Z",
       "title": "Container With Most Water",
       "topic": "Two Pointers"
+    },
+    "1-3": {
+      "completedAt": "2026-07-31T08:21:59.344Z",
+      "title": "Longest Substring Without Repeating Characters",
+      "topic": "Sliding Window"
     }
   },
   "notes": {

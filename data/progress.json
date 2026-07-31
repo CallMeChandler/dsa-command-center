@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-31T15:07:25.588Z",
+  "updatedAt": "2026-07-31T15:22:34.705Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -70,6 +70,11 @@
     "1-424": {
       "completedAt": "2026-07-31T15:06:36.972Z",
       "title": "Longest Repeating Character Replacement",
+      "topic": "Sliding Window"
+    },
+    "1-567": {
+      "completedAt": "2026-07-31T15:22:32.406Z",
+      "title": "Permutation in String",
       "topic": "Sliding Window"
     }
   },

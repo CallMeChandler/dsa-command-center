@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-31T09:25:43.840Z",
+  "updatedAt": "2026-07-31T10:08:06.076Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -60,6 +60,11 @@
     "1-209": {
       "completedAt": "2026-07-31T09:22:52.146Z",
       "title": "Minimum Size Subarray Sum",
+      "topic": "Sliding Window"
+    },
+    "1-904": {
+      "completedAt": "2026-07-31T10:08:05.487Z",
+      "title": "Fruit Into Baskets",
       "topic": "Sliding Window"
     }
   },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-01T17:34:03.725Z",
+  "updatedAt": "2026-08-01T17:36:32.368Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -122,7 +122,8 @@
     "4-704": "Basic Raw Binary Search Algorithm, no thinking literally just O(log n)",
     "4-35": "l becomes the first valid place where target can be inserted.",
     "4-34": "Apply Binary Search algorithm twice, once for the first element and once for the last element. For the first occurence if you find the middle element same as target store that in a variable and move towards right to find a more right skewed element, similarly for last occurence also store that in a variable and move towards left to find a more left skewed element. Return first and last.",
-    "4-153": "if (nums[mid]>nums[r]){\n                l = mid+1;\n            } else{\n                r = mid;\n            }\n\nThis is very important after this we return nums[l], all this because if num at mid is > than num at r that means after mid that rotated array breaks to original one, so we shift the search space to original one, else it has to be b/w l and mid."
+    "4-153": "if (nums[mid]>nums[r]){\n                l = mid+1;\n            } else{\n                r = mid;\n            }\n\nThis is very important after this we return nums[l], all this because if num at mid is > than num at r that means after mid that rotated array breaks to original one, so we shift the search space to original one, else it has to be b/w l and mid.",
+    "4-33": "This was a very good binary search question ngl, it teaches the concept of rotated sorted array very well, must revise. The idea is to first check which half is sorted, and by sorted not normally sorted i mean in overall distribution of l, mid and r it is sorted. For both halves, run normal binary sum and also bounds of target with l and r, also keep a check on the correct window shrinking conditions dont get confused, focus on the nums[mid] then check target."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

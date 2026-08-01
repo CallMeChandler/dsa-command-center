@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-01T07:13:47.918Z",
+  "updatedAt": "2026-08-01T07:13:50.283Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -104,7 +104,8 @@
     "1-904": "Refer to the solution, and revise this problem again, good pattern, basic idea is sliding window but since only two types are allowed at once, so we pop the leftmost type out of the freq map once its violated. A special if is included, so as to prevent the deletion of leftmost element but stale type still being present in the map.",
     "1-424": "for (int r = 0; r < n; r++) {\n            freq[s[r] - 'A']++;\n\n            maxFreq = max(maxFreq, freq[s[r] - 'A']);\n\n            while ((r - l + 1) - maxFreq > k) {\n                freq[s[l] - 'A']--;\n                l++;\n            }\n\n            maxLen = max(maxLen, r - l + 1);\n        }\n\nVery Important loop on how we access and store the maxFrequencies of a character and shrink the window.\n\nThe main idea is sliding window with a while check of window size-maxFreq>k",
     "1-567": "Okay basic sliding window but the window size is fixed here of the smaller string or basically s1 here. So at any point if windowSize>s1.size(); we move the window ahead. Also we maintain to frequency arrays one is need and one is window which tracks the total freq of s1 chars and one tracks the freq of the current window chars. If they are found out to be equal at any point of time then we simply return true.",
-    "4-704": "Basic Raw Binary Search Algorithm, no thinking literally just O(log n)"
+    "4-704": "Basic Raw Binary Search Algorithm, no thinking literally just O(log n)",
+    "4-35": "l becomes the first valid place where target can be inserted."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

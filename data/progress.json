@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-01T07:30:53.312Z",
+  "updatedAt": "2026-08-01T07:32:35.282Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -110,7 +110,8 @@
     "1-424": "for (int r = 0; r < n; r++) {\n            freq[s[r] - 'A']++;\n\n            maxFreq = max(maxFreq, freq[s[r] - 'A']);\n\n            while ((r - l + 1) - maxFreq > k) {\n                freq[s[l] - 'A']--;\n                l++;\n            }\n\n            maxLen = max(maxLen, r - l + 1);\n        }\n\nVery Important loop on how we access and store the maxFrequencies of a character and shrink the window.\n\nThe main idea is sliding window with a while check of window size-maxFreq>k",
     "1-567": "Okay basic sliding window but the window size is fixed here of the smaller string or basically s1 here. So at any point if windowSize>s1.size(); we move the window ahead. Also we maintain to frequency arrays one is need and one is window which tracks the total freq of s1 chars and one tracks the freq of the current window chars. If they are found out to be equal at any point of time then we simply return true.",
     "4-704": "Basic Raw Binary Search Algorithm, no thinking literally just O(log n)",
-    "4-35": "l becomes the first valid place where target can be inserted."
+    "4-35": "l becomes the first valid place where target can be inserted.",
+    "4-34": "Apply Binary Search algorithm twice, once for the first element and once for the last element. For the first occurence if you find the middle element same as target store that in a variable and move towards right to find a more right skewed element, similarly for last occurence also store that in a variable and move towards left to find a more left skewed element. Return first and last."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-02T14:18:48.804Z",
+  "updatedAt": "2026-08-02T14:19:11.994Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -140,7 +140,8 @@
     "4-153": "if (nums[mid]>nums[r]){\n                l = mid+1;\n            } else{\n                r = mid;\n            }\n\nThis is very important after this we return nums[l], all this because if num at mid is > than num at r that means after mid that rotated array breaks to original one, so we shift the search space to original one, else it has to be b/w l and mid.",
     "4-33": "This was a very good binary search question ngl, it teaches the concept of rotated sorted array very well, must revise. The idea is to first check which half is sorted, and by sorted not normally sorted i mean in overall distribution of l, mid and r it is sorted. For both halves, run normal binary sum and also bounds of target with l and r, also keep a check on the correct window shrinking conditions dont get confused, focus on the nums[mid] then check target.",
     "14-21": "Easy question technically but i found it a lil tricky, so yeah basically check edge cases if any LL is empty, return other. Then get a while loop for both LL until one of them reach nullptr, then check which element is smaller and insert that to tail and increment tail. In the end check whichever list is left if any and add as it is to tail.",
-    "14-23": "Same function as merge two sorted lists, just in the main function call that recursively by passing a new variable merged which is initially equal to nullptr, in the first iteration, it merged nullptr and 1st linked list and then that merged linked list is merged with the further linked lists and so on. Pretty easy compared to the actual easy one lol."
+    "14-23": "Same function as merge two sorted lists, just in the main function call that recursively by passing a new variable merged which is initially equal to nullptr, in the first iteration, it merged nullptr and 1st linked list and then that merged linked list is merged with the further linked lists and so on. Pretty easy compared to the actual easy one lol.",
+    "14-24": "        ListNode* first = head;\n        ListNode* second = head->next;\n\n        first->next = swapPairs(second->next);\n        second->next = first;\n\n        return second;\n\nVery nice recursion logic just follow this mostly easy question."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

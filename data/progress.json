@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-02T13:52:43.410Z",
+  "updatedAt": "2026-08-02T14:18:48.804Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -110,6 +110,11 @@
     "14-23": {
       "completedAt": "2026-08-02T13:51:32.399Z",
       "title": "Merge k Sorted Lists",
+      "topic": "Linked List Manipulation"
+    },
+    "14-24": {
+      "completedAt": "2026-08-02T14:18:46.411Z",
+      "title": "Swap Nodes in Pairs",
       "topic": "Linked List Manipulation"
     }
   },

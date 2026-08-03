@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-03T16:59:51.148Z",
+  "updatedAt": "2026-08-03T17:04:21.587Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -152,7 +152,8 @@
     "14-21": "Easy question technically but i found it a lil tricky, so yeah basically check edge cases if any LL is empty, return other. Then get a while loop for both LL until one of them reach nullptr, then check which element is smaller and insert that to tail and increment tail. In the end check whichever list is left if any and add as it is to tail.",
     "14-23": "Same function as merge two sorted lists, just in the main function call that recursively by passing a new variable merged which is initially equal to nullptr, in the first iteration, it merged nullptr and 1st linked list and then that merged linked list is merged with the further linked lists and so on. Pretty easy compared to the actual easy one lol.",
     "14-24": "        ListNode* first = head;\n        ListNode* second = head->next;\n\n        first->next = swapPairs(second->next);\n        second->next = first;\n\n        return second;\n\nVery nice recursion logic just follow this mostly easy question.",
-    "5-875": "Yeah really good question actually, best question to answer.  For hours convert ceil (piles[i]/mid) to ceil(pile+mid-1)/mid and increment in hours then check and apply binary search, if hours <= h then r = mid not mid -1 because we need minm value and mid can be an answer as well or else, l=mid+1 because anyways koko is too slow so left half should be discarded."
+    "5-875": "Yeah really good question actually, best question to answer.  For hours convert ceil (piles[i]/mid) to ceil(pile+mid-1)/mid and increment in hours then check and apply binary search, if hours <= h then r = mid not mid -1 because we need minm value and mid can be an answer as well or else, l=mid+1 because anyways koko is too slow so left half should be discarded.",
+    "5-1283": "Binary search on the divisor from `1` to `max(nums)`.\n\nFor every guessed divisor `mid`, calculate:\n\n```cpp\nsum += (num + mid - 1) / mid;\n```\n\nThis is the integer version of:\n\n```cpp\nceil((double)num / mid)\n```\n\nThen compare the calculated `sum` with `threshold`.\n\n* If `sum <= threshold`, the divisor works. Set `r = mid`, not `mid - 1`, because we need the smallest valid divisor and `mid` itself may be the answer.\n* If `sum > threshold`, the divisor is too small. Smaller divisors will produce an even larger sum, so discard the left half using `l = mid + 1`.\n\nWhen `l == r`, both pointers are at the smallest valid divisor, so return `l`.\n"
   },
   "dailyGoal": 2,
   "streakFreeze": 0

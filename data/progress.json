@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-03T17:04:21.587Z",
+  "updatedAt": "2026-08-03T17:42:19.167Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -125,6 +125,11 @@
     "5-1283": {
       "completedAt": "2026-08-03T16:59:43.159Z",
       "title": "Find the Smallest Divisor Given a Threshold",
+      "topic": "Binary Search on Answer"
+    },
+    "5-1011": {
+      "completedAt": "2026-08-03T17:42:16.161Z",
+      "title": "Capacity To Ship Packages Within D Days",
       "topic": "Binary Search on Answer"
     }
   },

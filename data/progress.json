@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-04T10:58:45.103Z",
+  "updatedAt": "2026-08-04T11:02:39.734Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -170,7 +170,8 @@
     "5-875": "Yeah really good question actually, best question to answer.  For hours convert ceil (piles[i]/mid) to ceil(pile+mid-1)/mid and increment in hours then check and apply binary search, if hours <= h then r = mid not mid -1 because we need minm value and mid can be an answer as well or else, l=mid+1 because anyways koko is too slow so left half should be discarded.",
     "5-1283": "Binary search on the divisor from `1` to `max(nums)`.\n\nFor every guessed divisor `mid`, calculate:\n\n```cpp\nsum += (num + mid - 1) / mid;\n```\n\nThis is the integer version of:\n\n```cpp\nceil((double)num / mid)\n```\n\nThen compare the calculated `sum` with `threshold`.\n\n* If `sum <= threshold`, the divisor works. Set `r = mid`, not `mid - 1`, because we need the smallest valid divisor and `mid` itself may be the answer.\n* If `sum > threshold`, the divisor is too small. Smaller divisors will produce an even larger sum, so discard the left half using `l = mid + 1`.\n\nWhen `l == r`, both pointers are at the smallest valid divisor, so return `l`.\n",
     "5-1011": "Good question, not too tough, just make a neededDays variable along with currLoad, if currLoad+weights[i]>capacity at any time, change the day to the next one, as refresh currLoad variable. Apply binary search on answer, if neededDays<=days then r=mid because there can be a smaller solution else l=mid+1.",
-    "5-1482": "Just Refer to the solution in deep man, this is lowkey tough to understand."
+    "5-1482": "Just Refer to the solution in deep man, this is lowkey tough to understand.",
+    "9-496": "Good first question to learn the concept of monotonic stacks, traverse the nums2 array left to right since its a superset of nums1 and maintain a stack where if x>st.top() then st.pop() after saving the mapping in a hashmap, that basically means a next greater element exists, but if some elements are left in the stack so then keep popping them until stack is empty and map them to -1 because there were no next greater elements for them, in the end traverse the nums1 array and compare the elements of that with our map and keep pushing final answers to ans vector and return that."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

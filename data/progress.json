@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-03T18:43:02.748Z",
+  "updatedAt": "2026-08-04T10:58:45.103Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -136,6 +136,11 @@
       "completedAt": "2026-08-03T18:42:24.453Z",
       "title": "Minimum Number of Days to Make m Bouquets",
       "topic": "Binary Search on Answer"
+    },
+    "9-496": {
+      "completedAt": "2026-08-04T10:58:42.500Z",
+      "title": "Next Greater Element I",
+      "topic": "Monotonic Stack"
     }
   },
   "notes": {

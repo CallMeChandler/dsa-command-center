@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-04T17:19:01.453Z",
+  "updatedAt": "2026-08-04T17:21:23.576Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -182,7 +182,8 @@
     "5-1011": "Good question, not too tough, just make a neededDays variable along with currLoad, if currLoad+weights[i]>capacity at any time, change the day to the next one, as refresh currLoad variable. Apply binary search on answer, if neededDays<=days then r=mid because there can be a smaller solution else l=mid+1.",
     "5-1482": "Just Refer to the solution in deep man, this is lowkey tough to understand.",
     "9-496": "Good first question to learn the concept of monotonic stacks, traverse the nums2 array left to right since its a superset of nums1 and maintain a stack where if x>st.top() then st.pop() after saving the mapping in a hashmap, that basically means a next greater element exists, but if some elements are left in the stack so then keep popping them until stack is empty and map them to -1 because there were no next greater elements for them, in the end traverse the nums1 array and compare the elements of that with our map and keep pushing final answers to ans vector and return that.",
-    "9-739": "Use a monotonic decreasing stack of indices. Each index in the stack represents a previous day still waiting for a warmer temperature. While the current temperature is greater than the temperature at the stack’s top index, pop that index and set its answer as currentIndex - previousIndex. Then push the current index. Any indices left in the stack at the end have no warmer future day, so their answer remains 0. Time complexity is O(n) because every index is pushed and popped at most once."
+    "9-739": "Use a monotonic decreasing stack of indices. Each index in the stack represents a previous day still waiting for a warmer temperature. While the current temperature is greater than the temperature at the stack’s top index, pop that index and set its answer as currentIndex - previousIndex. Then push the current index. Any indices left in the stack at the end have no warmer future day, so their answer remains 0. Time complexity is O(n) because every index is pushed and popped at most once.",
+    "9-503": "Okay this question wasnt as super tough, especially after 1st part of this, same algorithm but since its circular array we run a loop from 0 to 2n, basically creating a duplicate but not using any memory just in loop, rest of the logic is mostly same."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

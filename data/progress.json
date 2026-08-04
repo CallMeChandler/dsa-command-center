@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-04T11:02:39.734Z",
+  "updatedAt": "2026-08-04T14:03:03.716Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -140,6 +140,11 @@
     "9-496": {
       "completedAt": "2026-08-04T10:58:42.500Z",
       "title": "Next Greater Element I",
+      "topic": "Monotonic Stack"
+    },
+    "9-739": {
+      "completedAt": "2026-08-04T14:02:56.247Z",
+      "title": "Daily Temperatures",
       "topic": "Monotonic Stack"
     }
   },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-04T17:21:23.576Z",
+  "updatedAt": "2026-08-04T18:45:40.236Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -150,6 +150,11 @@
     "9-503": {
       "completedAt": "2026-08-04T17:18:59.252Z",
       "title": "Next Greater Element II",
+      "topic": "Monotonic Stack"
+    },
+    "9-901": {
+      "completedAt": "2026-08-04T18:45:37.080Z",
+      "title": "Online Stock Span",
       "topic": "Monotonic Stack"
     }
   },

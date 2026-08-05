@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-05T06:04:12.454Z",
+  "updatedAt": "2026-08-05T06:04:57.164Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -206,7 +206,8 @@
     "9-503": "Okay this question wasnt as super tough, especially after 1st part of this, same algorithm but since its circular array we run a loop from 0 to 2n, basically creating a duplicate but not using any memory just in loop, rest of the logic is mostly same.",
     "9-901": "Simple brute-force and simple optimal as well. Leave the constructor as it is, code the next function in which simply contain a pair in stack with price and span, so automatically when a new stock is added if last price was lesser so add its span and 1 together. Because anyway if that is less, so the current one se bhi less hoga.",
     "3-876": "Very simple slow/fast Ptr question, just initialize both at head move fast by two and slow by one in each iteration until fast->next and fast != nullptr, in the end return slow.",
-    "3-141": "Brute-force method is to use a hashset method, by inserting and checking in every iteration the head in a set, if it exists, so return true, else false. The optimal method is using fast and slow pointers called the floyd cycle detection algorithm. If slow and fast pointers meet at any point, return true => there is a cycle, else return false."
+    "3-141": "Brute-force method is to use a hashset method, by inserting and checking in every iteration the head in a set, if it exists, so return true, else false. The optimal method is using fast and slow pointers called the floyd cycle detection algorithm. If slow and fast pointers meet at any point, return true => there is a cycle, else return false.",
+    "3-142": "Use the tortoise-hare algorithm, first detect loop using floyd algo, then keep fast there only wherever loop is detected move back slow to head and move fast and slow together until they meet and increment by one. The intersection point is the start."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

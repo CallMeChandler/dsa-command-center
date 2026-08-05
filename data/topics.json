@@ -1132,5 +1132,341 @@
         "url": "https://leetcode.com/problems/longest-increasing-subsequence/"
       }
     ]
+  },
+  {
+    "id": 28,
+    "name": "Arrays: In-Place Manipulation",
+    "questions": [
+      {
+        "number": 27,
+        "title": "Remove Element",
+        "slug": "remove-element",
+        "url": "https://leetcode.com/problems/remove-element/"
+      },
+      {
+        "number": 26,
+        "title": "Remove Duplicates from Sorted Array",
+        "slug": "remove-duplicates-from-sorted-array",
+        "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
+      },
+      {
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "slug": "merge-sorted-array",
+        "url": "https://leetcode.com/problems/merge-sorted-array/"
+      },
+      {
+        "number": 189,
+        "title": "Rotate Array",
+        "slug": "rotate-array",
+        "url": "https://leetcode.com/problems/rotate-array/"
+      },
+      {
+        "number": 75,
+        "title": "Sort Colors",
+        "slug": "sort-colors",
+        "url": "https://leetcode.com/problems/sort-colors/"
+      },
+      {
+        "number": 41,
+        "title": "First Missing Positive",
+        "slug": "first-missing-positive",
+        "url": "https://leetcode.com/problems/first-missing-positive/"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Array Scanning and Running State",
+    "questions": [
+      {
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "slug": "best-time-to-buy-and-sell-stock",
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+      },
+      {
+        "number": 1299,
+        "title": "Replace Elements with Greatest Element on Right Side",
+        "slug": "replace-elements-with-greatest-element-on-right-side",
+        "url": "https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/"
+      },
+      {
+        "number": 2016,
+        "title": "Maximum Difference Between Increasing Elements",
+        "slug": "maximum-difference-between-increasing-elements",
+        "url": "https://leetcode.com/problems/maximum-difference-between-increasing-elements/"
+      },
+      {
+        "number": 334,
+        "title": "Increasing Triplet Subsequence",
+        "slug": "increasing-triplet-subsequence",
+        "url": "https://leetcode.com/problems/increasing-triplet-subsequence/"
+      },
+      {
+        "number": 55,
+        "title": "Jump Game",
+        "slug": "jump-game",
+        "url": "https://leetcode.com/problems/jump-game/"
+      },
+      {
+        "number": 45,
+        "title": "Jump Game II",
+        "slug": "jump-game-ii",
+        "url": "https://leetcode.com/problems/jump-game-ii/"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Kadane and Subarray Optimisation",
+    "questions": [
+      {
+        "number": 53,
+        "title": "Maximum Subarray",
+        "slug": "maximum-subarray",
+        "url": "https://leetcode.com/problems/maximum-subarray/"
+      },
+      {
+        "number": 1749,
+        "title": "Maximum Absolute Sum of Any Subarray",
+        "slug": "maximum-absolute-sum-of-any-subarray",
+        "url": "https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/"
+      },
+      {
+        "number": 918,
+        "title": "Maximum Sum Circular Subarray",
+        "slug": "maximum-sum-circular-subarray",
+        "url": "https://leetcode.com/problems/maximum-sum-circular-subarray/"
+      },
+      {
+        "number": 152,
+        "title": "Maximum Product Subarray",
+        "slug": "maximum-product-subarray",
+        "url": "https://leetcode.com/problems/maximum-product-subarray/"
+      },
+      {
+        "number": 1567,
+        "title": "Maximum Length of Subarray With Positive Product",
+        "slug": "maximum-length-of-subarray-with-positive-product",
+        "url": "https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/"
+      },
+      {
+        "number": 1186,
+        "title": "Maximum Subarray Sum with One Deletion",
+        "slug": "maximum-subarray-sum-with-one-deletion",
+        "url": "https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Matrix Traversal and Transformation",
+    "questions": [
+      {
+        "number": 54,
+        "title": "Spiral Matrix",
+        "slug": "spiral-matrix",
+        "url": "https://leetcode.com/problems/spiral-matrix/"
+      },
+      {
+        "number": 48,
+        "title": "Rotate Image",
+        "slug": "rotate-image",
+        "url": "https://leetcode.com/problems/rotate-image/"
+      },
+      {
+        "number": 73,
+        "title": "Set Matrix Zeroes",
+        "slug": "set-matrix-zeroes",
+        "url": "https://leetcode.com/problems/set-matrix-zeroes/"
+      },
+      {
+        "number": 74,
+        "title": "Search a 2D Matrix",
+        "slug": "search-a-2d-matrix",
+        "url": "https://leetcode.com/problems/search-a-2d-matrix/"
+      },
+      {
+        "number": 36,
+        "title": "Valid Sudoku",
+        "slug": "valid-sudoku",
+        "url": "https://leetcode.com/problems/valid-sudoku/"
+      },
+      {
+        "number": 289,
+        "title": "Game of Life",
+        "slug": "game-of-life",
+        "url": "https://leetcode.com/problems/game-of-life/"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Stack and Queue Fundamentals",
+    "questions": [
+      {
+        "number": 20,
+        "title": "Valid Parentheses",
+        "slug": "valid-parentheses",
+        "url": "https://leetcode.com/problems/valid-parentheses/"
+      },
+      {
+        "number": 155,
+        "title": "Min Stack",
+        "slug": "min-stack",
+        "url": "https://leetcode.com/problems/min-stack/"
+      },
+      {
+        "number": 150,
+        "title": "Evaluate Reverse Polish Notation",
+        "slug": "evaluate-reverse-polish-notation",
+        "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/"
+      },
+      {
+        "number": 71,
+        "title": "Simplify Path",
+        "slug": "simplify-path",
+        "url": "https://leetcode.com/problems/simplify-path/"
+      },
+      {
+        "number": 394,
+        "title": "Decode String",
+        "slug": "decode-string",
+        "url": "https://leetcode.com/problems/decode-string/"
+      },
+      {
+        "number": 232,
+        "title": "Implement Queue using Stacks",
+        "slug": "implement-queue-using-stacks",
+        "url": "https://leetcode.com/problems/implement-queue-using-stacks/"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "String Parsing and Manipulation",
+    "questions": [
+      {
+        "number": 125,
+        "title": "Valid Palindrome",
+        "slug": "valid-palindrome",
+        "url": "https://leetcode.com/problems/valid-palindrome/"
+      },
+      {
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "slug": "longest-common-prefix",
+        "url": "https://leetcode.com/problems/longest-common-prefix/"
+      },
+      {
+        "number": 151,
+        "title": "Reverse Words in a String",
+        "slug": "reverse-words-in-a-string",
+        "url": "https://leetcode.com/problems/reverse-words-in-a-string/"
+      },
+      {
+        "number": 443,
+        "title": "String Compression",
+        "slug": "string-compression",
+        "url": "https://leetcode.com/problems/string-compression/"
+      },
+      {
+        "number": 165,
+        "title": "Compare Version Numbers",
+        "slug": "compare-version-numbers",
+        "url": "https://leetcode.com/problems/compare-version-numbers/"
+      },
+      {
+        "number": 8,
+        "title": "String to Integer (atoi)",
+        "slug": "string-to-integer-atoi",
+        "url": "https://leetcode.com/problems/string-to-integer-atoi/"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Data-Structure Design",
+    "questions": [
+      {
+        "number": 705,
+        "title": "Design HashSet",
+        "slug": "design-hashset",
+        "url": "https://leetcode.com/problems/design-hashset/"
+      },
+      {
+        "number": 706,
+        "title": "Design HashMap",
+        "slug": "design-hashmap",
+        "url": "https://leetcode.com/problems/design-hashmap/"
+      },
+      {
+        "number": 622,
+        "title": "Design Circular Queue",
+        "slug": "design-circular-queue",
+        "url": "https://leetcode.com/problems/design-circular-queue/"
+      },
+      {
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "slug": "insert-delete-getrandom-o1",
+        "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/"
+      },
+      {
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "slug": "time-based-key-value-store",
+        "url": "https://leetcode.com/problems/time-based-key-value-store/"
+      },
+      {
+        "number": 146,
+        "title": "LRU Cache",
+        "slug": "lru-cache",
+        "url": "https://leetcode.com/problems/lru-cache/"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Math and Number Manipulation",
+    "questions": [
+      {
+        "number": 9,
+        "title": "Palindrome Number",
+        "slug": "palindrome-number",
+        "url": "https://leetcode.com/problems/palindrome-number/"
+      },
+      {
+        "number": 202,
+        "title": "Happy Number",
+        "slug": "happy-number",
+        "url": "https://leetcode.com/problems/happy-number/"
+      },
+      {
+        "number": 69,
+        "title": "Sqrt(x)",
+        "slug": "sqrtx",
+        "url": "https://leetcode.com/problems/sqrtx/"
+      },
+      {
+        "number": 50,
+        "title": "Pow(x, n)",
+        "slug": "powx-n",
+        "url": "https://leetcode.com/problems/powx-n/"
+      },
+      {
+        "number": 172,
+        "title": "Factorial Trailing Zeroes",
+        "slug": "factorial-trailing-zeroes",
+        "url": "https://leetcode.com/problems/factorial-trailing-zeroes/"
+      },
+      {
+        "number": 204,
+        "title": "Count Primes",
+        "slug": "count-primes",
+        "url": "https://leetcode.com/problems/count-primes/"
+      }
+    ]
   }
 ]

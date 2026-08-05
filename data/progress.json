@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-05T04:35:35.325Z",
+  "updatedAt": "2026-08-05T06:04:12.454Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -165,6 +165,11 @@
     "3-141": {
       "completedAt": "2026-08-05T04:34:12.262Z",
       "title": "Linked List Cycle",
+      "topic": "Fast/Slow Pointers (Linked List)"
+    },
+    "3-142": {
+      "completedAt": "2026-08-05T06:04:08.394Z",
+      "title": "Linked List Cycle II",
       "topic": "Fast/Slow Pointers (Linked List)"
     }
   },

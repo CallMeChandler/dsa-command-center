@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T13:27:22.396Z",
+  "updatedAt": "2026-08-06T13:28:31.215Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -218,7 +218,8 @@
     "3-876": "Very simple slow/fast Ptr question, just initialize both at head move fast by two and slow by one in each iteration until fast->next and fast != nullptr, in the end return slow.",
     "3-141": "Brute-force method is to use a hashset method, by inserting and checking in every iteration the head in a set, if it exists, so return true, else false. The optimal method is using fast and slow pointers called the floyd cycle detection algorithm. If slow and fast pointers meet at any point, return true => there is a cycle, else return false.",
     "3-142": "Use the tortoise-hare algorithm, first detect loop using floyd algo, then keep fast there only wherever loop is detected move back slow to head and move fast and slow together until they meet and increment by one. The intersection point is the start.",
-    "3-160": "Simple two pointer optimal solution, make a and b, place them at headA, headB respectively. Once either of them reaches null change its pos to headB and vice-versa. Keep doing this till a!=b and they'll meet at the intersection point."
+    "3-160": "Simple two pointer optimal solution, make a and b, place them at headA, headB respectively. Once either of them reaches null change its pos to headB and vice-versa. Keep doing this till a!=b and they'll meet at the intersection point.",
+    "15-104": "This was an easy but decent starter question, the idea is to make the base case is when you reach the leaf node so since it eventually reaches nullptr so we return 0, and we compute leftHeight and rightHeight by recursive functions and simply return 1 + max(ofThoseBoth)"
   },
   "dailyGoal": 2,
   "streakFreeze": 0

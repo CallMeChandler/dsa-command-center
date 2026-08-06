@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T14:03:44.086Z",
+  "updatedAt": "2026-08-06T14:51:40.679Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -186,6 +186,11 @@
       "completedAt": "2026-08-06T14:02:06.703Z",
       "title": "Binary Tree Level Order Traversal",
       "topic": "Tree BFS / Level Order"
+    },
+    "15-543": {
+      "completedAt": "2026-08-06T14:51:38.024Z",
+      "title": "Diameter of Binary Tree",
+      "topic": "Tree DFS"
     }
   },
   "notes": {

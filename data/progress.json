@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T14:52:33.544Z",
+  "updatedAt": "2026-08-06T16:14:00.905Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -191,6 +191,11 @@
       "completedAt": "2026-08-06T14:51:38.024Z",
       "title": "Diameter of Binary Tree",
       "topic": "Tree DFS"
+    },
+    "17-235": {
+      "completedAt": "2026-08-06T16:13:57.584Z",
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "topic": "BST Problems"
     }
   },
   "notes": {

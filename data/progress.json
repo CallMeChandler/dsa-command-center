@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-07T09:16:03.475Z",
+  "updatedAt": "2026-08-07T09:18:00.196Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -248,7 +248,8 @@
     "16-102": "Very easy question, just look at the code to revise.\nThe main idea is to put everything levelwise in an array ans. Push into the queue store as a node, pop it from the queue, search its children and add them in the queue for next iteration. In the inner loop, do from 0 to levelSize which we can calculate by size of queue in an iteration.",
     "15-543": "Make a public variable diameter and initialize it to 0. Make a height function that calculates, left height and right height for you, because diameter is basically longest path in the tree so lHeight+rHeight. ",
     "17-235": "if (p->val < root->val && q->val < root->val){\n            return lowestCommonAncestor(root->left, p, q);\n        }\n\n        if (p->val > root->val && q->val > root->val){\n            return lowestCommonAncestor(root->right, p, q);\n        }\n\n        return root;",
-    "15-226": "        swap(root->left, root->right);\n\n        invertTree(root->left);\n        invertTree(root->right);\n\nThis is literally all the logic you need lmao"
+    "15-226": "        swap(root->left, root->right);\n\n        invertTree(root->left);\n        invertTree(root->right);\n\nThis is literally all the logic you need lmao",
+    "11-215": "Put all the elements in a max heap, since its a property of max heap to have the largest element at the top, then pop with a loop from 0 to k-1 and return top.\npriority_queue<int> pq;"
   },
   "dailyGoal": 2,
   "streakFreeze": 0

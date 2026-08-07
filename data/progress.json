@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-07T11:58:07.699Z",
+  "updatedAt": "2026-08-07T13:43:06.985Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -220,6 +220,11 @@
     "11-703": {
       "completedAt": "2026-08-07T11:55:30.020Z",
       "title": "Kth Largest Element in a Stream",
+      "topic": "Heap / Top K"
+    },
+    "11-973": {
+      "completedAt": "2026-08-07T13:43:03.406Z",
+      "title": "K Closest Points to Origin",
       "topic": "Heap / Top K"
     }
   },

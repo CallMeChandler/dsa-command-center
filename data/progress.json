@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-07T09:34:01.637Z",
+  "updatedAt": "2026-08-07T09:42:19.227Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -254,7 +254,8 @@
     "15-543": "Make a public variable diameter and initialize it to 0. Make a height function that calculates, left height and right height for you, because diameter is basically longest path in the tree so lHeight+rHeight. ",
     "17-235": "if (p->val < root->val && q->val < root->val){\n            return lowestCommonAncestor(root->left, p, q);\n        }\n\n        if (p->val > root->val && q->val > root->val){\n            return lowestCommonAncestor(root->right, p, q);\n        }\n\n        return root;",
     "15-226": "        swap(root->left, root->right);\n\n        invertTree(root->left);\n        invertTree(root->right);\n\nThis is literally all the logic you need lmao",
-    "11-215": "Put all the elements in a max heap, since its a property of max heap to have the largest element at the top, then pop with a loop from 0 to k-1 and return top.\npriority_queue<int> pq;"
+    "11-215": "Put all the elements in a max heap, since its a property of max heap to have the largest element at the top, then pop with a loop from 0 to k-1 and return top.\npriority_queue<int> pq;",
+    "11-347": "Pretty straightforward question actually, just make an unordered_map, and store the frequencies of all the elements. Put that into a max heap and automatically top frequencies will come at top, Pop out k-1 freqs and return remaining."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

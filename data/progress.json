@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-07T09:42:19.227Z",
+  "updatedAt": "2026-08-07T10:27:30.128Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -210,6 +210,11 @@
     "11-347": {
       "completedAt": "2026-08-07T09:33:59.022Z",
       "title": "Top K Frequent Elements",
+      "topic": "Heap / Top K"
+    },
+    "11-692": {
+      "completedAt": "2026-08-07T10:27:26.725Z",
+      "title": "Top K Frequent Words",
       "topic": "Heap / Top K"
     }
   },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-08T12:26:27.726Z",
+  "updatedAt": "2026-08-08T12:40:11.567Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -250,6 +250,11 @@
     "12-252": {
       "completedAt": "2026-08-08T12:26:09.190Z",
       "title": "Meeting Rooms",
+      "topic": "Intervals"
+    },
+    "12-253": {
+      "completedAt": "2026-08-08T12:40:09.032Z",
+      "title": "Meeting Rooms II",
       "topic": "Intervals"
     }
   },

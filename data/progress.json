@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-08T12:17:02.976Z",
+  "updatedAt": "2026-08-08T12:18:05.587Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -296,7 +296,8 @@
     "11-973": "Simple AF question, just refer to the solution to revise. ",
     "12-56": "Easy but important question, the main idea is simple to store one interval at a time and then loop over intervals array from the next one and compare with it. \nThis is the heart of the algorithm:\nif (curr[1]>=intervals[i][0]){\n                curr[1] = max(curr[1], intervals[i][1]);\n            } else{\n                ans.push_back(curr);\n                curr=intervals[i];\n            }",
     "12-435": "Uses almost the same pattern like merge intervals but a little different since the intervals are not allowed to overlap in this one, in if statement we just put < instead of <= and increase the count of intervals we want to remove and also we choose minimum of currEnd and intervals[i][1], because a larger interval may eat up all others which we dont want.",
-    "12-57": "For LeetCode 57 – Insert Interval, since the given intervals are already sorted and non-overlapping, we traverse them once while carrying the new interval using start and end. There are three cases: if the current interval ends before start, it is completely before the new interval so we directly push it; if it starts after end, it is completely after, so we first insert the merged {start, end} once and then push the remaining intervals; otherwise, the intervals overlap, so we merge using start = min(start, intervals[i][0]) and end = max(end, intervals[i][1]). The main mistakes are inserting the new interval multiple times, forgetting to merge across several consecutive overlaps, or forgetting to insert it at the end if no later interval triggers the “after” case. Overall complexity is O(n) time and O(n) space for the answer."
+    "12-57": "For LeetCode 57 – Insert Interval, since the given intervals are already sorted and non-overlapping, we traverse them once while carrying the new interval using start and end. There are three cases: if the current interval ends before start, it is completely before the new interval so we directly push it; if it starts after end, it is completely after, so we first insert the merged {start, end} once and then push the remaining intervals; otherwise, the intervals overlap, so we merge using start = min(start, intervals[i][0]) and end = max(end, intervals[i][1]). The main mistakes are inserting the new interval multiple times, forgetting to merge across several consecutive overlaps, or forgetting to insert it at the end if no later interval triggers the “after” case. Overall complexity is O(n) time and O(n) space for the answer.",
+    "12-452": "Very cute question lol, so the basic idea is counting the groups of non-overlapping intervals, for each group they'll be a unique arrow.\nRefer to the solutions, its relatively easy to understand."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

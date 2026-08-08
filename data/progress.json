@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-08T12:40:48.241Z",
+  "updatedAt": "2026-08-08T12:49:21.606Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -256,6 +256,11 @@
       "completedAt": "2026-08-08T12:40:09.032Z",
       "title": "Meeting Rooms II",
       "topic": "Intervals"
+    },
+    "16-103": {
+      "completedAt": "2026-08-08T12:49:18.810Z",
+      "title": "Binary Tree Zigzag Level Order Traversal",
+      "topic": "Tree BFS / Level Order"
     }
   },
   "notes": {

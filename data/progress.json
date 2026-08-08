@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-08T09:07:31.386Z",
+  "updatedAt": "2026-08-08T09:10:07.598Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -278,7 +278,8 @@
     "11-347": "Pretty straightforward question actually, just make an unordered_map, and store the frequencies of all the elements. Put that into a max heap and automatically top frequencies will come at top, Pop out k-1 freqs and return remaining.",
     "11-692": "In #692, count words using unordered_map<string,int>, then push them into a heap as {frequency, word}, so the heap uses pair<int,string>. The custom comparator returns true when a should have lower priority than b: a.first < b.first makes lower-frequency words go below higher-frequency ones, and if frequencies are equal, a.second > b.second makes lexicographically larger words go below smaller ones. Thus the heap top is always the highest-frequency word, and on a tie, the dictionary-smaller word comes first.",
     "11-703": "I mean weird question honestly, do look at the solution once, the main idea is simple to keep only a few elements in consideration, because if k=3, so we wont need anything more than the top 3 largest elements, so the moment a new element comes and pq.size()>k we pop an element out of the queue and the elements rearrange. For faster and easier access we also use, a min heap instead of max heap since, in the set of some largest numbers suppose the 3rd largest number will be the smallest and hence on top in the min-heap.",
-    "11-973": "Simple AF question, just refer to the solution to revise. "
+    "11-973": "Simple AF question, just refer to the solution to revise. ",
+    "12-56": "Easy but important question, the main idea is simple to store one interval at a time and then loop over intervals array from the next one and compare with it. \nThis is the heart of the algorithm:\nif (curr[1]>=intervals[i][0]){\n                curr[1] = max(curr[1], intervals[i][1]);\n            } else{\n                ans.push_back(curr);\n                curr=intervals[i];\n            }"
   },
   "dailyGoal": 2,
   "streakFreeze": 0

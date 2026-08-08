@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-08T10:48:08.283Z",
+  "updatedAt": "2026-08-08T12:17:02.976Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -240,6 +240,11 @@
     "12-57": {
       "completedAt": "2026-08-08T10:46:52.765Z",
       "title": "Insert Interval",
+      "topic": "Intervals"
+    },
+    "12-452": {
+      "completedAt": "2026-08-08T12:17:00.425Z",
+      "title": "Minimum Number of Arrows to Burst Balloons",
       "topic": "Intervals"
     }
   },

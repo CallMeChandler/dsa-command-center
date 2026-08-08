@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-08T09:10:07.598Z",
+  "updatedAt": "2026-08-08T09:53:02.614Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -230,6 +230,11 @@
     "12-56": {
       "completedAt": "2026-08-08T09:07:28.836Z",
       "title": "Merge Intervals",
+      "topic": "Intervals"
+    },
+    "12-435": {
+      "completedAt": "2026-08-08T09:52:59.571Z",
+      "title": "Non-overlapping Intervals",
       "topic": "Intervals"
     }
   },

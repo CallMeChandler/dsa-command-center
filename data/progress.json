@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T12:15:00.775Z",
+  "updatedAt": "2026-08-09T14:04:54.277Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -266,6 +266,11 @@
       "completedAt": "2026-08-09T12:12:22.254Z",
       "title": "Find Peak Element",
       "topic": "Binary Search on Sorted Data"
+    },
+    "6-347": {
+      "completedAt": "2026-08-09T14:04:40.090Z",
+      "title": "Top K Frequent Elements",
+      "topic": "Hashing / Frequency Maps"
     }
   },
   "notes": {

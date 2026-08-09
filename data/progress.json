@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-08T12:50:37.058Z",
+  "updatedAt": "2026-08-09T12:12:24.527Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -261,6 +261,11 @@
       "completedAt": "2026-08-08T12:49:18.810Z",
       "title": "Binary Tree Zigzag Level Order Traversal",
       "topic": "Tree BFS / Level Order"
+    },
+    "4-162": {
+      "completedAt": "2026-08-09T12:12:22.254Z",
+      "title": "Find Peak Element",
+      "topic": "Binary Search on Sorted Data"
     }
   },
   "notes": {

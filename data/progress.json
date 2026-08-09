@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T14:04:54.277Z",
+  "updatedAt": "2026-08-09T14:29:42.642Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -271,6 +271,11 @@
       "completedAt": "2026-08-09T14:04:40.090Z",
       "title": "Top K Frequent Elements",
       "topic": "Hashing / Frequency Maps"
+    },
+    "14-25": {
+      "completedAt": "2026-08-09T14:29:39.621Z",
+      "title": "Reverse Nodes in k-Group",
+      "topic": "Linked List Manipulation"
     }
   },
   "notes": {
@@ -326,7 +331,8 @@
     "12-252": "Shit problem honestly, \n        for (int i = 1; i < arr.size(); i++){\n            if (arr[i-1][1]>arr[i][0]) return false;\n        }\n        \n        return true;",
     "12-253": "For Meeting Rooms II, sort the start[] and end[] arrays separately and use two pointers. If start[i] < end[j], a new meeting begins before the earliest current meeting ends, so we need another room: increment rooms and update maxRooms. Otherwise, a meeting has finished, so decrement rooms and move the end pointer j. If start[i] == end[j], we can reuse the same room, so it goes to the “meeting ended” case. The answer is the maximum number of rooms used at the same time, because that is the minimum number of rooms required overall. Time complexity is O(n log n) due to sorting, with O(1) extra space apart from sorting.",
     "16-103": "Really good question actually, the idea is same BFS code but we make a leftToRight flag which we keep changing after every iteration and we also have a level array here, so that we can reverse the nodes in each iteration.\nRefer to the solution its pretty straightforward.",
-    "4-162": "The basic idea is to use binary search (ofc lol), now check if nums[mid]<nums[mid+1] so that basically means either you're moving towards a peak or maybe down but either way you can move rightwards. Similarly for else case, the peak will be on downward flow, so move r=mid, and move leftwards."
+    "4-162": "The basic idea is to use binary search (ofc lol), now check if nums[mid]<nums[mid+1] so that basically means either you're moving towards a peak or maybe down but either way you can move rightwards. Similarly for else case, the peak will be on downward flow, so move r=mid, and move leftwards.",
+    "6-347": "Check heaps reasoning."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

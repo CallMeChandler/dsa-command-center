@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T06:28:16.813Z",
+  "updatedAt": "2026-08-10T06:28:47.147Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -338,7 +338,8 @@
     "16-103": "Really good question actually, the idea is same BFS code but we make a leftToRight flag which we keep changing after every iteration and we also have a level array here, so that we can reverse the nodes in each iteration.\nRefer to the solution its pretty straightforward.",
     "4-162": "The basic idea is to use binary search (ofc lol), now check if nums[mid]<nums[mid+1] so that basically means either you're moving towards a peak or maybe down but either way you can move rightwards. Similarly for else case, the peak will be on downward flow, so move r=mid, and move leftwards.",
     "6-347": "Check heaps reasoning.",
-    "14-25": "Use recursion method, and build a reversing algorithm that is simple and call it recursively by passing curr ptr and k. Don't forget to check if atleast k nodes are present."
+    "14-25": "Use recursion method, and build a reversing algorithm that is simple and call it recursively by passing curr ptr and k. Don't forget to check if atleast k nodes are present.",
+    "5-410": "Really fucking cool question man like just look at the solution once, it is enough to revise."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

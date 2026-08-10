@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T14:30:26.909Z",
+  "updatedAt": "2026-08-10T06:28:16.813Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -276,6 +276,11 @@
       "completedAt": "2026-08-09T14:29:39.621Z",
       "title": "Reverse Nodes in k-Group",
       "topic": "Linked List Manipulation"
+    },
+    "5-410": {
+      "completedAt": "2026-08-10T06:28:13.901Z",
+      "title": "Split Array Largest Sum",
+      "topic": "Binary Search on Answer"
     }
   },
   "notes": {

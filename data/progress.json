@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T16:57:48.091Z",
+  "updatedAt": "2026-08-10T16:58:17.653Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -368,7 +368,8 @@
     "15-112": "Basically, traverse the whole tree till it reaches a leaf node and keep subtracting again and again after every node target-root->val and then when it reaches a leaf node if target - root->val = 0 then return true, and recursively, just keep calling the both left and right nodes.",
     "15-113": "Basically path sum 1, but we dont have to return a boolean answer, instead store every working path in an ans array. So same approach, but keep adding it to path array and when you reach leaf node and the targetSum reaches 0 (we keep subtracting it with root->val found na) so finally add path to ans and backtrack for other valid answers.",
     "16-199": "Mid asf question, use normal bsf, instead of making a level array, we simply push those nodes that i==levelSize-1 because that is the rightmost visible node to us from the right side.",
-    "16-515": "Mid question, use normal BFS, in the level vector just add max_element for each level to the ans array."
+    "16-515": "Mid question, use normal BFS, in the level vector just add max_element for each level to the ans array.",
+    "16-637": "Mid question, use normal BFS, in the level vector just  sum up all elements, and push back the average of the level to the answer."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

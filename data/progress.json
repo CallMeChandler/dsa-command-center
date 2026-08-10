@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T14:46:15.551Z",
+  "updatedAt": "2026-08-10T15:25:13.070Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -291,6 +291,11 @@
       "completedAt": "2026-08-10T14:42:54.995Z",
       "title": "Path Sum II",
       "topic": "Tree DFS"
+    },
+    "16-199": {
+      "completedAt": "2026-08-10T15:25:03.673Z",
+      "title": "Binary Tree Right Side View",
+      "topic": "Tree BFS / Level Order"
     }
   },
   "notes": {

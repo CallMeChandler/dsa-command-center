@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T14:43:02.833Z",
+  "updatedAt": "2026-08-10T14:46:15.551Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -350,7 +350,8 @@
     "6-347": "Check heaps reasoning.",
     "14-25": "Use recursion method, and build a reversing algorithm that is simple and call it recursively by passing curr ptr and k. Don't forget to check if atleast k nodes are present.",
     "5-410": "Really fucking cool question man like just look at the solution once, it is enough to revise.",
-    "15-112": "Basically, traverse the whole tree till it reaches a leaf node and keep subtracting again and again after every node target-root->val and then when it reaches a leaf node if target - root->val = 0 then return true, and recursively, just keep calling the both left and right nodes."
+    "15-112": "Basically, traverse the whole tree till it reaches a leaf node and keep subtracting again and again after every node target-root->val and then when it reaches a leaf node if target - root->val = 0 then return true, and recursively, just keep calling the both left and right nodes.",
+    "15-113": "Basically path sum 1, but we dont have to return a boolean answer, instead store every working path in an ans array. So same approach, but keep adding it to path array and when you reach leaf node and the targetSum reaches 0 (we keep subtracting it with root->val found na) so finally add path to ans and backtrack for other valid answers."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

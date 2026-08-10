@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T15:51:41.122Z",
+  "updatedAt": "2026-08-10T16:57:48.091Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -300,6 +300,11 @@
     "16-515": {
       "completedAt": "2026-08-10T15:51:18.559Z",
       "title": "Find Largest Value in Each Tree Row",
+      "topic": "Tree BFS / Level Order"
+    },
+    "16-637": {
+      "completedAt": "2026-08-10T16:57:42.885Z",
+      "title": "Average of Levels in Binary Tree",
       "topic": "Tree BFS / Level Order"
     }
   },

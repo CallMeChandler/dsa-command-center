@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T06:28:47.147Z",
+  "updatedAt": "2026-08-10T06:45:24.058Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -281,6 +281,11 @@
       "completedAt": "2026-08-10T06:28:13.901Z",
       "title": "Split Array Largest Sum",
       "topic": "Binary Search on Answer"
+    },
+    "15-112": {
+      "completedAt": "2026-08-10T06:45:23.242Z",
+      "title": "Path Sum",
+      "topic": "Tree DFS"
     }
   },
   "notes": {

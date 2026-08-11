@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-11T10:09:37.029Z",
+  "updatedAt": "2026-08-11T10:09:49.638Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -380,7 +380,8 @@
     "16-199": "Mid asf question, use normal bsf, instead of making a level array, we simply push those nodes that i==levelSize-1 because that is the rightmost visible node to us from the right side.",
     "16-515": "Mid question, use normal BFS, in the level vector just add max_element for each level to the ans array.",
     "16-637": "Mid question, use normal BFS, in the level vector just  sum up all elements, and push back the average of the level to the answer.",
-    "9-84": "For LeetCode 84 – Largest Rectangle in Histogram, the key idea is to find, for every bar, the maximum width over which that bar can act as the rectangle’s minimum height. A bar can extend left and right until we meet a smaller height, so we use a monotonic increasing stack of indices. While scanning, if the current height is smaller than the height at the stack top, that means the current index is the first smaller element on the right for the popped bar; after popping, the new stack top is the first smaller element on the left. Hence width = right - left - 1 and area = height * width. We keep updating the maximum area. To make sure all remaining bars are processed at the end, we do one extra iteration with a fake height 0, which forces everything left in the stack to pop. Overall, each index is pushed and popped at most once, so the time complexity is O(n) and space is O(n)."
+    "9-84": "For LeetCode 84 – Largest Rectangle in Histogram, the key idea is to find, for every bar, the maximum width over which that bar can act as the rectangle’s minimum height. A bar can extend left and right until we meet a smaller height, so we use a monotonic increasing stack of indices. While scanning, if the current height is smaller than the height at the stack top, that means the current index is the first smaller element on the right for the popped bar; after popping, the new stack top is the first smaller element on the left. Hence width = right - left - 1 and area = height * width. We keep updating the maximum area. To make sure all remaining bars are processed at the end, we do one extra iteration with a fake height 0, which forces everything left in the stack to pop. Overall, each index is pushed and popped at most once, so the time complexity is O(n) and space is O(n).",
+    "9-85": "Convert every matrix row into a histogram using heights[j], where heights[j] represents the number of consecutive 1s vertically ending at the current row. If matrix[i][j] == '1', do heights[j]++; if it is '0', reset heights[j] = 0 because the consecutive vertical streak is broken. After processing each row, run #84 Largest Rectangle in Histogram on the current heights and keep the maximum area across all rows. We cannot wait until the final row because later 0s reset heights and can erase rectangles that were valid in earlier rows. Thus, each histogram finds the best rectangle whose bottom edge is the current row, and taking the maximum of all these gives the answer. Time: O(m*n), Space: O(n) plus the stack used by #84."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

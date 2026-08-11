@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T16:58:17.653Z",
+  "updatedAt": "2026-08-11T09:42:14.387Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -306,6 +306,11 @@
       "completedAt": "2026-08-10T16:57:42.885Z",
       "title": "Average of Levels in Binary Tree",
       "topic": "Tree BFS / Level Order"
+    },
+    "9-84": {
+      "completedAt": "2026-08-11T09:42:06.054Z",
+      "title": "Largest Rectangle in Histogram",
+      "topic": "Monotonic Stack"
     }
   },
   "notes": {

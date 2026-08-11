@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-11T09:42:14.387Z",
+  "updatedAt": "2026-08-11T09:42:51.729Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -374,7 +374,8 @@
     "15-113": "Basically path sum 1, but we dont have to return a boolean answer, instead store every working path in an ans array. So same approach, but keep adding it to path array and when you reach leaf node and the targetSum reaches 0 (we keep subtracting it with root->val found na) so finally add path to ans and backtrack for other valid answers.",
     "16-199": "Mid asf question, use normal bsf, instead of making a level array, we simply push those nodes that i==levelSize-1 because that is the rightmost visible node to us from the right side.",
     "16-515": "Mid question, use normal BFS, in the level vector just add max_element for each level to the ans array.",
-    "16-637": "Mid question, use normal BFS, in the level vector just  sum up all elements, and push back the average of the level to the answer."
+    "16-637": "Mid question, use normal BFS, in the level vector just  sum up all elements, and push back the average of the level to the answer.",
+    "9-84": "For LeetCode 84 – Largest Rectangle in Histogram, the key idea is to find, for every bar, the maximum width over which that bar can act as the rectangle’s minimum height. A bar can extend left and right until we meet a smaller height, so we use a monotonic increasing stack of indices. While scanning, if the current height is smaller than the height at the stack top, that means the current index is the first smaller element on the right for the popped bar; after popping, the new stack top is the first smaller element on the left. Hence width = right - left - 1 and area = height * width. We keep updating the maximum area. To make sure all remaining bars are processed at the end, we do one extra iteration with a fake height 0, which forces everything left in the stack to pop. Overall, each index is pushed and popped at most once, so the time complexity is O(n) and space is O(n)."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

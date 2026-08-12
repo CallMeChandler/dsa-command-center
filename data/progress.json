@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-12T11:39:21.279Z",
+  "updatedAt": "2026-08-12T13:55:58.339Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -351,6 +351,11 @@
       "completedAt": "2026-08-12T11:39:14.231Z",
       "title": "Rotting Oranges",
       "topic": "Graph BFS / DFS"
+    },
+    "20-1091": {
+      "completedAt": "2026-08-12T13:55:54.752Z",
+      "title": "Shortest Path in Binary Matrix",
+      "topic": "Graph BFS / DFS"
     }
   },
   "notes": {
@@ -422,7 +427,8 @@
     "32-394": "Scan the string from left to right while maintaining curr (the string currently being built) and num (the repeat count). Use two stacks: one for repeat counts and one for strings built before entering a bracket. For a digit, build the complete number using num = num * 10 + (ch-'0'). On '[', push num and curr into their stacks, then reset both because we are entering a new nested section. For a normal letter, simply do curr += ch. On ']', pop the repeat count and previous string, repeat the current string that many times into temp, then do curr = prev + temp to attach the decoded bracket back to what existed before it. The stacks allow nested expressions like 3[a2[c]] to be handled naturally. Time is roughly O(length of decoded output) and space is O(n + decoded/intermediate strings).",
     "20-200": "Treat the grid itself as a graph, where every land cell '1' is a node connected to its four neighboring cells: up, down, left and right. Traverse the entire matrix, and whenever we find a land cell that has not been visited, we have discovered a new island, so increment islands and start DFS from that cell. DFS marks the current land as visited and recursively explores its four neighbors, effectively visiting the entire connected island. Thus, when the outer loop later encounters another cell belonging to the same island, it is already visited and isn't counted again. DFS stops when we go outside the matrix, encounter water '0', or encounter an already visited cell. Time complexity is O(m*n) since every cell is processed at most once, and space is O(m*n) for the visited matrix plus the recursion stack in the worst case.",
     "20-695": "Same question as Number of islands, but here we return the largest island's area instead. So same DFS and main function, just initialize an area variable and add area for every dfs call made. Change DFS function type from void to int and return area and in main instead of incrementing island count, keep updating maxArea and return that in the end.",
-    "20-733": "Start DFS from the given cell (sr, sc) and store its original color as oldColor. DFS should only visit cells that are inside the grid and have the same oldColor, because only cells connected to the starting cell with the same color should be changed. For every valid cell, change image[i][j] to the new color and recursively explore its four neighbors: up, down, left and right. We don't need a separate visited array because changing a cell from oldColor to color effectively marks it as visited. However, if oldColor == color, return the image immediately; otherwise recoloring would not mark cells differently and DFS could repeatedly revisit them. Time complexity is O(m*n) in the worst case and recursion-stack space is O(m*n) in the worst case."
+    "20-733": "Start DFS from the given cell (sr, sc) and store its original color as oldColor. DFS should only visit cells that are inside the grid and have the same oldColor, because only cells connected to the starting cell with the same color should be changed. For every valid cell, change image[i][j] to the new color and recursively explore its four neighbors: up, down, left and right. We don't need a separate visited array because changing a cell from oldColor to color effectively marks it as visited. However, if oldColor == color, return the image immediately; otherwise recoloring would not mark cells differently and DFS could repeatedly revisit them. Time complexity is O(m*n) in the worst case and recursion-stack space is O(m*n) in the worst case.",
+    "20-994": "This is a multi-source BFS because all initially rotten oranges (2) start spreading simultaneously. First scan the grid, push every rotten orange’s {row, col} into the queue and count all fresh oranges (1). Then perform BFS level by level, where one BFS level represents one minute. At the beginning of each level, save size = q.size() so that only oranges that were already rotten at the start of this minute can spread; newly rotten oranges are pushed into the queue but are processed in the next level/minute. For each rotten orange, try its four neighbors (up, down, left, right). If a neighbor is inside the grid and fresh, change it from 1 → 2, decrement fresh, and push it into the queue. After processing the entire current level, increment minutes. If BFS finishes and fresh > 0, some oranges were unreachable, so return -1; otherwise return minutes. When using a helper like rot(), pass fresh as int& fresh because we need to modify the original counter, not a copy. Time complexity is O(m*n) and worst-case queue space is O(m*n)."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

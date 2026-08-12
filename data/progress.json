@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-12T07:27:26.840Z",
+  "updatedAt": "2026-08-12T08:32:09.195Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -335,6 +335,11 @@
     "20-200": {
       "completedAt": "2026-08-12T07:27:11.300Z",
       "title": "Number of Islands",
+      "topic": "Graph BFS / DFS"
+    },
+    "20-695": {
+      "completedAt": "2026-08-12T08:32:05.487Z",
+      "title": "Max Area of Island",
       "topic": "Graph BFS / DFS"
     }
   },

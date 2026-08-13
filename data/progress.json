@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T14:01:33.340Z",
+  "updatedAt": "2026-08-13T14:31:17.571Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -365,6 +365,11 @@
     "17-98": {
       "completedAt": "2026-08-13T14:00:12.424Z",
       "title": "Validate Binary Search Tree",
+      "topic": "BST Problems"
+    },
+    "17-99": {
+      "completedAt": "2026-08-13T14:31:09.872Z",
+      "title": "Recover Binary Search Tree",
       "topic": "BST Problems"
     }
   },

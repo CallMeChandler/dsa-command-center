@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T18:13:11.542Z",
+  "updatedAt": "2026-08-13T18:21:19.986Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -381,6 +381,11 @@
       "completedAt": "2026-08-13T18:13:02.091Z",
       "title": "Delete Node in a BST",
       "topic": "BST Problems"
+    },
+    "17-700": {
+      "completedAt": "2026-08-13T18:21:16.707Z",
+      "title": "Search in a Binary Search Tree",
+      "topic": "BST Problems"
     }
   },
   "notes": {
@@ -458,7 +463,8 @@
     "20-1254": "For LeetCode 1254 – Number of Closed Islands, remember that 0 is land and 1 is water, and an island is closed only if none of its cells touch the boundary. So first, handle all boundary cells separately: run DFS from every 0 in the top row, bottom row, left column, and right column, marking every connected 0 as visited because any island connected to an edge can never be closed. After this cleanup, scan only the inner part of the grid using loops from i = 1 to m - 2 and j = 1 to n - 2; we deliberately skip the boundary because those cells were already handled separately. Now every remaining unvisited 0 must belong to a closed island, so increment count once and run DFS to mark that entire island visited. DFS itself is the usual 4-direction traversal and stops on out-of-bounds cells, water, or already visited cells. Also remember: m is rows, so bottom row is m - 1; n is columns, so rightmost column is n - 1. Time complexity is O(m*n) and space is O(m*n) with the visited matrix and recursion stack.",
     "17-98": "Make a helper function and pass node, minVal, maxVal. The basic idea is to check the root should never exceed maxVal and become lesser than minVal. They are initialized -∞ and ∞ respectively. Recursively call for root->left and root->right for their respective ranges.",
     "17-99": "For LeetCode 99 – Recover Binary Search Tree, use the fact that inorder traversal of a valid BST must be strictly increasing. While doing inorder, keep prev as the previously visited node. If prev->val > root->val, the increasing order is broken. On the first violation, set first = prev and second = root. If another violation occurs later, keep first unchanged and update second = root, because in a non-adjacent swap the later node is the actual second swapped node. For an adjacent swap, there is only one violation, so the first second is already correct. After traversal, simply swap(first->val, second->val). Time complexity is O(n) and recursion-stack space is O(h).",
-    "17-230": "Use the BST property that inorder traversal gives values in sorted ascending order. So instead of storing all values in a vector, perform recursive inorder traversal in the order left -> root -> right and maintain a count of how many nodes have been visited. Increment count when processing the current node, and when count == k, store root->val as the answer. Here, count = 1 means smallest element, count = 2 means second smallest, and so on. Time complexity is O(n) in the worst case, though we may find the answer earlier, and recursion-stack space is O(h) where h is the tree height."
+    "17-230": "Use the BST property that inorder traversal gives values in sorted ascending order. So instead of storing all values in a vector, perform recursive inorder traversal in the order left -> root -> right and maintain a count of how many nodes have been visited. Increment count when processing the current node, and when count == k, store root->val as the answer. Here, count = 1 means smallest element, count = 2 means second smallest, and so on. Time complexity is O(n) in the worst case, though we may find the answer earlier, and recursion-stack space is O(h) where h is the tree height.",
+    "17-450": "Use the BST property to first search for key: if key < root->val, recurse left; if greater, recurse right. Once the node is found, there are 3 cases. If it has no left child, return its right child; if it has no right child, return its left child—this also automatically handles a leaf because both children are nullptr. If the node has two children, find the smallest node in its right subtree by going right once and then continuously left; this is the inorder successor. Copy the successor's value into the node being deleted, which temporarily creates a duplicate, then recursively delete the original successor from the right subtree using root->right = deleteNode(root->right, temp->val). We assign recursive results back to root->left/right because deleting a node can change the root of that subtree. Finally return root to reconnect the updated tree. Average time is O(h), where h is tree height; worst case O(n) for a skewed BST."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

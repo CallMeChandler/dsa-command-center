@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T17:23:12.102Z",
+  "updatedAt": "2026-08-13T18:13:11.542Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -375,6 +375,11 @@
     "17-230": {
       "completedAt": "2026-08-13T17:10:09.642Z",
       "title": "Kth Smallest Element in a BST",
+      "topic": "BST Problems"
+    },
+    "17-450": {
+      "completedAt": "2026-08-13T18:13:02.091Z",
+      "title": "Delete Node in a BST",
       "topic": "BST Problems"
     }
   },

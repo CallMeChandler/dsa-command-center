@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T18:21:22.761Z",
+  "updatedAt": "2026-08-14T06:43:13.479Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -386,6 +386,11 @@
       "completedAt": "2026-08-13T18:21:16.707Z",
       "title": "Search in a Binary Search Tree",
       "topic": "BST Problems"
+    },
+    "13-55": {
+      "completedAt": "2026-08-14T06:43:05.271Z",
+      "title": "Jump Game",
+      "topic": "Greedy Scheduling / Sorting"
     }
   },
   "notes": {

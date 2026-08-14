@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T06:43:13.479Z",
+  "updatedAt": "2026-08-14T12:58:02.255Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -391,6 +391,11 @@
       "completedAt": "2026-08-14T06:43:05.271Z",
       "title": "Jump Game",
       "topic": "Greedy Scheduling / Sorting"
+    },
+    "13-45": {
+      "completedAt": "2026-08-14T12:57:59.517Z",
+      "title": "Jump Game II",
+      "topic": "Greedy Scheduling / Sorting"
     }
   },
   "notes": {
@@ -470,7 +475,8 @@
     "17-99": "For LeetCode 99 – Recover Binary Search Tree, use the fact that inorder traversal of a valid BST must be strictly increasing. While doing inorder, keep prev as the previously visited node. If prev->val > root->val, the increasing order is broken. On the first violation, set first = prev and second = root. If another violation occurs later, keep first unchanged and update second = root, because in a non-adjacent swap the later node is the actual second swapped node. For an adjacent swap, there is only one violation, so the first second is already correct. After traversal, simply swap(first->val, second->val). Time complexity is O(n) and recursion-stack space is O(h).",
     "17-230": "Use the BST property that inorder traversal gives values in sorted ascending order. So instead of storing all values in a vector, perform recursive inorder traversal in the order left -> root -> right and maintain a count of how many nodes have been visited. Increment count when processing the current node, and when count == k, store root->val as the answer. Here, count = 1 means smallest element, count = 2 means second smallest, and so on. Time complexity is O(n) in the worst case, though we may find the answer earlier, and recursion-stack space is O(h) where h is the tree height.",
     "17-450": "Use the BST property to first search for key: if key < root->val, recurse left; if greater, recurse right. Once the node is found, there are 3 cases. If it has no left child, return its right child; if it has no right child, return its left child—this also automatically handles a leaf because both children are nullptr. If the node has two children, find the smallest node in its right subtree by going right once and then continuously left; this is the inorder successor. Copy the successor's value into the node being deleted, which temporarily creates a duplicate, then recursively delete the original successor from the right subtree using root->right = deleteNode(root->right, temp->val). We assign recursive results back to root->left/right because deleting a node can change the root of that subtree. Finally return root to reconnect the updated tree. Average time is O(h), where h is tree height; worst case O(n) for a skewed BST.",
-    "17-700": "For LeetCode 700 – Search in a Binary Search Tree, use the BST property to avoid searching the whole tree. If root == nullptr, the value does not exist; if root->val == val, return the current node. If val < root->val, the target can only be in the left subtree, so recursively search root->left; otherwise search root->right. This continues until the value is found or we reach nullptr. Time complexity is O(h), where h is the tree height, and recursion-stack space is also O(h); in a balanced BST this is O(log n), while in a skewed tree it can become O(n)."
+    "17-700": "For LeetCode 700 – Search in a Binary Search Tree, use the BST property to avoid searching the whole tree. If root == nullptr, the value does not exist; if root->val == val, return the current node. If val < root->val, the target can only be in the left subtree, so recursively search root->left; otherwise search root->right. This continues until the value is found or we reach nullptr. Time complexity is O(h), where h is the tree height, and recursion-stack space is also O(h); in a balanced BST this is O(log n), while in a skewed tree it can become O(n).",
+    "13-55": "Keep track of the farthest index reachable so far.\n\nFor every index i:\n\nIf i > farthest, we cannot even reach this index → false.\nOtherwise update:\nfarthest = max(farthest, i + nums[i])\n\nWe do not care about the exact jumps taken, only the maximum reachable boundary.\n\nPattern: Greedy / Farthest Reach\nTime: O(n)\nSpace: O(1)"
   },
   "dailyGoal": 2,
   "streakFreeze": 0

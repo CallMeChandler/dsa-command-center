@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T12:58:04.153Z",
+  "updatedAt": "2026-08-14T13:45:50.428Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -395,6 +395,11 @@
     "13-45": {
       "completedAt": "2026-08-14T12:57:59.517Z",
       "title": "Jump Game II",
+      "topic": "Greedy Scheduling / Sorting"
+    },
+    "13-621": {
+      "completedAt": "2026-08-14T13:45:47.144Z",
+      "title": "Task Scheduler",
       "topic": "Greedy Scheduling / Sorting"
     }
   },

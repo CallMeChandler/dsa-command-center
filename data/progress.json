@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T16:41:15.980Z",
+  "updatedAt": "2026-08-14T16:41:38.027Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -488,7 +488,8 @@
     "17-700": "For LeetCode 700 – Search in a Binary Search Tree, use the BST property to avoid searching the whole tree. If root == nullptr, the value does not exist; if root->val == val, return the current node. If val < root->val, the target can only be in the left subtree, so recursively search root->left; otherwise search root->right. This continues until the value is found or we reach nullptr. Time complexity is O(h), where h is the tree height, and recursion-stack space is also O(h); in a balanced BST this is O(log n), while in a skewed tree it can become O(n).",
     "13-55": "Keep track of the farthest index reachable so far.\n\nFor every index i:\n\nIf i > farthest, we cannot even reach this index → false.\nOtherwise update:\nfarthest = max(farthest, i + nums[i])\n\nWe do not care about the exact jumps taken, only the maximum reachable boundary.\n\nPattern: Greedy / Farthest Reach\nTime: O(n)\nSpace: O(1)",
     "13-45": "### #45 Jump Game II — Greedy\n\nKeep track of:\n\n* `farthest` → farthest index the **next jump** can reach.\n* `currEnd` → boundary reachable with the **current number of jumps**.\n* `jumps` → jumps taken.\n\nFor each index:\n\n```cpp\nfarthest = max(farthest, i + nums[i]);\n```\n\nWhen `i == currEnd`, we've explored everything reachable with the current jumps, so we **must take another jump**:\n\n```cpp\njumps++;\ncurrEnd = farthest;\n```\n\n**Key idea:** Treat reachable indices like levels:\n`[0] → [1..2] → [3..4]`. Each time one level ends, increment `jumps`.\n\n**Time:** `O(n)`\n**Space:** `O(1)`\n",
-    "13-621": "#621 Task Scheduler — Greedy: Count frequencies of all tasks. Let maxFreq be the highest frequency and maxCount be how many task types have that frequency. The most frequent tasks determine the minimum schedule structure because they need the most cooldown separation. Build maxFreq - 1 full blocks of size n + 1, then add the final occurrences of all max-frequency tasks: slots = (maxFreq - 1) * (n + 1) + maxCount. Final answer is max(tasks.size(), slots) because if enough other tasks fill all cooldown gaps, no idle time is needed. Time: O(n), Space: O(1) since frequency array size is 26."
+    "13-621": "#621 Task Scheduler — Greedy: Count frequencies of all tasks. Let maxFreq be the highest frequency and maxCount be how many task types have that frequency. The most frequent tasks determine the minimum schedule structure because they need the most cooldown separation. Build maxFreq - 1 full blocks of size n + 1, then add the final occurrences of all max-frequency tasks: slots = (maxFreq - 1) * (n + 1) + maxCount. Final answer is max(tasks.size(), slots) because if enough other tasks fill all cooldown gaps, no idle time is needed. Time: O(n), Space: O(1) since frequency array size is 26.",
+    "13-134": "#134 Gas Station — Greedy: Track tank for the current candidate start and total for the entire journey. At each station add gas[i] - cost[i] to both. If tank < 0, the current start cannot reach past i, and neither can any station between start and i, so set start = i + 1 and reset tank = 0. total is never reset because it checks overall feasibility: if total < 0, total gas is less than total cost, so no solution exists → -1; otherwise the final start is valid. Time: O(n), Space: O(1)."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

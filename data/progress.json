@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T11:35:08.038Z",
+  "updatedAt": "2026-08-15T11:38:04.514Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -512,7 +512,8 @@
     "13-134": "#134 Gas Station — Greedy: Track tank for the current candidate start and total for the entire journey. At each station add gas[i] - cost[i] to both. If tank < 0, the current start cannot reach past i, and neither can any station between start and i, so set start = i + 1 and reset tank = 0. total is never reset because it checks overall feasibility: if total < 0, total gas is less than total cost, so no solution exists → -1; otherwise the final start is valid. Time: O(n), Space: O(1).",
     "28-27": "Use two pointers, initialize one at first idx (0), one at last idx (n) then while(i<n) if nums[i]==val then nums[i]=nums[n-1] replace with last element and n--; Remember no i++ here, so if hypothetically the new element fetched from last is also == val then it can be checked again, else simply i++.\nReturn n.",
     "28-26": "        for (int i = 1; i < nums.size(); i++) {\n            if (nums[i] != nums[i - 1]) {\n                nums[k] = nums[i];\n                k++;\n            }\n        }\n\n        return k;",
-    "28-189": "        k=k%nums.size();\n        reverse(nums.begin(), nums.end());\n        reverse(nums.begin(), nums.begin()+k);\n        reverse(nums.begin()+k, nums.end());"
+    "28-189": "        k=k%nums.size();\n        reverse(nums.begin(), nums.end());\n        reverse(nums.begin(), nums.begin()+k);\n        reverse(nums.begin()+k, nums.end());",
+    "28-88": "JUGAAD:\n        for (int i = 0; i < n; i++){\n            nums1[m+i]=nums2[i];\n        }\n\n        sort(nums1.begin(), nums1.end());\n\nReal Shite:\n        int i = m-1;\n        int j = n-1;\n        int k = m+n-1;\n\n        while(i>=0 && j>=0){\n            if (nums2[j]>nums1[i]){\n                nums1[k]=nums2[j];\n                j--;\n            } else{\n                nums1[k]=nums1[i];\n                i--;\n            }\n            k--;\n        }\n\n        while(j>=0){\n            nums1[k]=nums2[j];\n            j--;\n            k--;\n        }"
   },
   "dailyGoal": 2,
   "streakFreeze": 0

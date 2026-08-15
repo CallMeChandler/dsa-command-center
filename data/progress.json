@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T10:44:32.844Z",
+  "updatedAt": "2026-08-15T10:51:03.667Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -415,6 +415,11 @@
     "28-26": {
       "completedAt": "2026-08-15T10:44:27.445Z",
       "title": "Remove Duplicates from Sorted Array",
+      "topic": "Arrays: In-Place Manipulation"
+    },
+    "28-189": {
+      "completedAt": "2026-08-15T10:51:02.181Z",
+      "title": "Rotate Array",
       "topic": "Arrays: In-Place Manipulation"
     }
   },

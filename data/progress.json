@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T16:41:38.027Z",
+  "updatedAt": "2026-08-15T09:39:42.116Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -406,6 +406,11 @@
       "completedAt": "2026-08-14T16:41:12.798Z",
       "title": "Gas Station",
       "topic": "Greedy Scheduling / Sorting"
+    },
+    "28-27": {
+      "completedAt": "2026-08-15T09:39:38.975Z",
+      "title": "Remove Element",
+      "topic": "Arrays: In-Place Manipulation"
     }
   },
   "notes": {

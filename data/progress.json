@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T17:50:09.469Z",
+  "updatedAt": "2026-08-16T10:09:25.811Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -436,6 +436,11 @@
       "completedAt": "2026-08-15T17:50:06.038Z",
       "title": "First Missing Positive",
       "topic": "Arrays: In-Place Manipulation"
+    },
+    "27-70": {
+      "completedAt": "2026-08-16T10:09:23.214Z",
+      "title": "Climbing Stairs",
+      "topic": "1D DP Basics"
     }
   },
   "notes": {

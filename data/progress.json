@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T10:43:39.046Z",
+  "updatedAt": "2026-08-16T11:24:36.906Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -451,6 +451,11 @@
       "completedAt": "2026-08-16T10:43:36.307Z",
       "title": "House Robber II",
       "topic": "1D DP Basics"
+    },
+    "27-322": {
+      "completedAt": "2026-08-16T11:24:34.286Z",
+      "title": "Coin Change",
+      "topic": "1D DP Basics"
     }
   },
   "notes": {
@@ -542,7 +547,8 @@
     "28-75": "#75 Sort Colors — Dutch National Flag: Use three pointers: low for the next position of 0, mid to scan the array, and high for the next position of 2. If nums[mid] == 0, swap with low and increment both low and mid; if it is 1, it already belongs in the middle so just increment mid; if it is 2, swap with high and decrement high. Do not increment mid after swapping a 2 because the new value brought from the right has not been checked yet. This sorts the array in one pass with O(n) time and O(1) space.",
     "28-41": "#41 First Missing Positive — Cyclic Placement: For an array of size n, the answer must be in [1, n+1]. Use the array itself like a hash table by placing every valid value x (1 <= x <= n) at its correct index x - 1 using swaps. Keep swapping while nums[i] is valid and not already at its correct position; the duplicate check nums[i] != nums[nums[i]-1] prevents infinite swaps. After placement, scan from left to right: the first index where nums[i] != i + 1 means i + 1 is the missing positive. If every position is correct, return n + 1. Time: O(n), Space: O(1).",
     "27-70": "LC 70 — Climbing Stairs: This is a basic 1D DP / Fibonacci pattern. To reach stair n, the last jump must have come either from n-1 using a 1-step jump or from n-2 using a 2-step jump, so the recurrence is f(n) = f(n-1) + f(n-2). The base cases are f(1)=1 and f(2)=2 (1+1 or 2). Plain recursion repeats the same subproblems and becomes exponential, so we use a dp array to memoize already calculated answers, reducing the time to O(n) with O(n) space. The main recognition clue is: number of ways to reach a position when you can move 1 or 2 steps → think Fibonacci-style DP.",
-    "27-198": "LC 198 — House Robber: This is a 1D DP problem where at each house i we decide whether to rob it or skip it. If we rob house i, we cannot rob i-1, so the profit becomes nums[i] + dp[i-2]. If we skip it, the best profit remains dp[i-1]. Therefore, dp[i] = max(nums[i] + dp[i-2], dp[i-1]). Base cases are dp[0] = nums[0] and dp[1] = max(nums[0], nums[1]). This is better than simply taking alternate houses because the optimal combination may skip irregularly, e.g. [2,1,1,2] gives 2 + 2 = 4. Time complexity is O(n) and space complexity is O(n)."
+    "27-198": "LC 198 — House Robber: This is a 1D DP problem where at each house i we decide whether to rob it or skip it. If we rob house i, we cannot rob i-1, so the profit becomes nums[i] + dp[i-2]. If we skip it, the best profit remains dp[i-1]. Therefore, dp[i] = max(nums[i] + dp[i-2], dp[i-1]). Base cases are dp[0] = nums[0] and dp[1] = max(nums[0], nums[1]). This is better than simply taking alternate houses because the optimal combination may skip irregularly, e.g. [2,1,1,2] gives 2 + 2 = 4. Time complexity is O(n) and space complexity is O(n).",
+    "27-213": "**LC 213 — House Robber II:** This is a **1D DP** extension of House Robber I, but the houses are circular, meaning the first and last houses are adjacent and cannot both be robbed. To remove the circular restriction, split the problem into two normal House Robber cases: rob houses from `0...n-2` (exclude the last house) and from `1...n-1` (exclude the first house), then return the maximum of both answers. For each range, use the same recurrence as #198: `dp[i] = max(currentHouse + dp[i-2], dp[i-1])`, representing rob vs skip. Handle `n == 1` separately by returning `nums[0]`. Time complexity is **O(n)** and space is **O(n)** with a DP array, which can later be optimized to **O(1)**.\n"
   },
   "dailyGoal": 2,
   "streakFreeze": 0

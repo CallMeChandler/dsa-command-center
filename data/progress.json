@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T10:26:13.569Z",
+  "updatedAt": "2026-08-16T10:43:39.046Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -445,6 +445,11 @@
     "27-198": {
       "completedAt": "2026-08-16T10:25:31.181Z",
       "title": "House Robber",
+      "topic": "1D DP Basics"
+    },
+    "27-213": {
+      "completedAt": "2026-08-16T10:43:36.307Z",
+      "title": "House Robber II",
       "topic": "1D DP Basics"
     }
   },

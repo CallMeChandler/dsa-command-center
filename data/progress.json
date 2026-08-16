@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T11:42:14.956Z",
+  "updatedAt": "2026-08-16T12:00:37.369Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -460,6 +460,11 @@
     "27-279": {
       "completedAt": "2026-08-16T11:42:13.451Z",
       "title": "Perfect Squares",
+      "topic": "1D DP Basics"
+    },
+    "27-300": {
+      "completedAt": "2026-08-16T12:00:34.568Z",
+      "title": "Longest Increasing Subsequence",
       "topic": "1D DP Basics"
     }
   },

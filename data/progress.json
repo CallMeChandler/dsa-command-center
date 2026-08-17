@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-17T17:24:52.513Z",
+  "updatedAt": "2026-08-17T17:24:54.313Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -578,7 +578,8 @@
     "27-279": "**LC 279 — Perfect Squares:** This is a **1D DP** problem very similar to Coin Change. Let `dp[target]` represent the minimum number of perfect squares needed to make `target`, with `dp[0] = 0`. For every target, generate all valid perfect squares using `i = 1; i*i <= target; i++`, where `sq = i*i` gives `1, 4, 9, 16...`. Treat `sq` as the last square chosen, so the remaining amount is `target - sq`, giving the recurrence `dp[target] = min(dp[target], dp[target-sq] + 1)`. Initialize DP with a large value like `n+1` and return `dp[n]`. For example, `12 = 4+4+4`, so the answer is `3`. Time complexity is **O(n√n)** and space is **O(n)**. Recognition pattern: **minimum number of reusable values needed to form a target → Coin Change-style DP.**\n",
     "27-300": "**LC 300 — Longest Increasing Subsequence:** Use **1D DP** where `dp[i]` means the length of the longest increasing subsequence that ends exactly at index `i`. Every element by itself forms an LIS of length `1`, so initialize all `dp[i] = 1`. For each `i`, check every previous `j < i`; if `nums[j] < nums[i]`, then `nums[i]` can extend the subsequence ending at `j`, so update `dp[i] = max(dp[i], dp[j] + 1)`. The final answer is the maximum value in the entire `dp` array because the LIS may end at any index, not necessarily the last one. Time complexity is **O(n²)** and space is **O(n)**. Recognition pattern: **for each element, look back at all smaller previous elements and extend the best valid subsequence.**\n",
     "3-234": "find middle using slow/fast\n        ↓\nreverse from slow to end\n        ↓\ncompare head with reversed half",
-    "16-116": "Basic BFS question, just use the standard BFS boiler plate and use the level vector once again, and traverse it using a loop and keep adding next pointers at every level you traverse."
+    "16-116": "Basic BFS question, just use the standard BFS boiler plate and use the level vector once again, and traverse it using a loop and keep adding next pointers at every level you traverse.",
+    "15-124": "#124 Binary Tree Maximum Path Sum — use DFS. For every node, recursively get the best downward path sum from the left and right subtree. Since negative contributions only reduce the path sum, use left = max(0, solve(root->left)) and similarly for right. The path ending/turning at the current node can use both sides, so update the global answer with root->val + left + right. However, when returning to the parent, we can only return a single non-branching path, so return root->val + max(left, right). This is the key distinction: ans represents the best complete path found anywhere in the tree, while solve() returns the best one-sided path that can still be extended upward. Initialize ans = INT_MIN to correctly handle trees containing only negative values. Time complexity is O(n) and recursion space is O(h)."
   },
   "dailyGoal": 2,
   "streakFreeze": 0

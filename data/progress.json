@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-17T14:11:06.385Z",
+  "updatedAt": "2026-08-17T17:24:52.513Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -476,6 +476,11 @@
       "completedAt": "2026-08-17T14:10:21.308Z",
       "title": "Populating Next Right Pointers in Each Node",
       "topic": "Tree BFS / Level Order"
+    },
+    "15-124": {
+      "completedAt": "2026-08-17T17:24:49.241Z",
+      "title": "Binary Tree Maximum Path Sum",
+      "topic": "Tree DFS"
     }
   },
   "notes": {

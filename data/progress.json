@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-17T13:31:38.783Z",
+  "updatedAt": "2026-08-17T14:10:24.835Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -471,6 +471,11 @@
       "completedAt": "2026-08-17T13:31:34.071Z",
       "title": "Palindrome Linked List",
       "topic": "Fast/Slow Pointers (Linked List)"
+    },
+    "16-116": {
+      "completedAt": "2026-08-17T14:10:21.308Z",
+      "title": "Populating Next Right Pointers in Each Node",
+      "topic": "Tree BFS / Level Order"
     }
   },
   "notes": {

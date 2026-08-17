@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T12:00:49.207Z",
+  "updatedAt": "2026-08-17T13:31:37.189Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -466,6 +466,11 @@
       "completedAt": "2026-08-16T12:00:34.568Z",
       "title": "Longest Increasing Subsequence",
       "topic": "1D DP Basics"
+    },
+    "3-234": {
+      "completedAt": "2026-08-17T13:31:34.071Z",
+      "title": "Palindrome Linked List",
+      "topic": "Fast/Slow Pointers (Linked List)"
     }
   },
   "notes": {

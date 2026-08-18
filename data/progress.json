@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-18T10:11:37.085Z",
+  "updatedAt": "2026-08-18T10:11:38.575Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -596,7 +596,8 @@
     "16-116": "Basic BFS question, just use the standard BFS boiler plate and use the level vector once again, and traverse it using a loop and keep adding next pointers at every level you traverse.",
     "15-124": "#124 Binary Tree Maximum Path Sum — use DFS. For every node, recursively get the best downward path sum from the left and right subtree. Since negative contributions only reduce the path sum, use left = max(0, solve(root->left)) and similarly for right. The path ending/turning at the current node can use both sides, so update the global answer with root->val + left + right. However, when returning to the parent, we can only return a single non-branching path, so return root->val + max(left, right). This is the key distinction: ans represents the best complete path found anywhere in the tree, while solve() returns the best one-sided path that can still be extended upward. Initialize ans = INT_MIN to correctly handle trees containing only negative values. Time complexity is O(n) and recursion space is O(h).",
     "31-54": "For **LeetCode #54 Spiral Matrix**, use four boundaries: `top`, `bottom`, `left`, and `right`, representing the current unvisited rectangle. Traverse one layer in clockwise order: first the **top row from left to right**, then the **right column from top to bottom**, then the **bottom row from right to left**, and finally the **left column from bottom to top**. After each traversal, move that boundary inward using `top++`, `right--`, `bottom--`, and `left++`. Before traversing the bottom row, check `top <= bottom`, and before traversing the left column, check `left <= right` to avoid visiting the same row or column twice in thin matrices. Continue while `top <= bottom && left <= right`. Every element is visited exactly once, so the time complexity is **O(m × n)** and the extra space is **O(1)** excluding the output array.\n",
-    "31-48": "The approach is simple, transpose the matrix and then reverse its columns.\n\n        for (int i = 0; i < n; i++){\n            for (int j = i+1; j < n; j++){\n                swap(matrix[i][j], matrix[j][i]);\n            }\n        }\n\n        for (int i = 0; i < n; i++){\n            reverse(matrix[i].begin(), matrix[i].end());\n        }"
+    "31-48": "The approach is simple, transpose the matrix and then reverse its columns.\n\n        for (int i = 0; i < n; i++){\n            for (int j = i+1; j < n; j++){\n                swap(matrix[i][j], matrix[j][i]);\n            }\n        }\n\n        for (int i = 0; i < n; i++){\n            reverse(matrix[i].begin(), matrix[i].end());\n        }",
+    "31-73": "For **LeetCode #73 Set Matrix Zeroes** using **O(m + n) extra space**, create two marker arrays: `row[m]` and `col[n]`. In the first pass, scan the matrix and whenever `matrix[i][j] == 0`, mark `row[i] = 1` and `col[j] = 1`. This records which rows and columns contained an **original zero** without modifying the matrix immediately, which avoids newly-created zeros from incorrectly affecting other rows or columns. In the second pass, scan the matrix again and set `matrix[i][j] = 0` whenever `row[i] == 1 || col[j] == 1`. This takes **O(m × n)** time and **O(m + n)** extra space.\n"
   },
   "dailyGoal": 2,
   "streakFreeze": 0

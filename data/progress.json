@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-18T10:54:04.181Z",
+  "updatedAt": "2026-08-18T10:54:05.248Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -609,7 +609,7 @@
     "31-48": "The approach is simple, transpose the matrix and then reverse its columns.\n\n        for (int i = 0; i < n; i++){\n            for (int j = i+1; j < n; j++){\n                swap(matrix[i][j], matrix[j][i]);\n            }\n        }\n\n        for (int i = 0; i < n; i++){\n            reverse(matrix[i].begin(), matrix[i].end());\n        }",
     "31-73": "For **LeetCode #73 Set Matrix Zeroes** using **O(m + n) extra space**, create two marker arrays: `row[m]` and `col[n]`. In the first pass, scan the matrix and whenever `matrix[i][j] == 0`, mark `row[i] = 1` and `col[j] = 1`. This records which rows and columns contained an **original zero** without modifying the matrix immediately, which avoids newly-created zeros from incorrectly affecting other rows or columns. In the second pass, scan the matrix again and set `matrix[i][j] = 0` whenever `row[i] == 1 || col[j] == 1`. This takes **O(m × n)** time and **O(m + n)** extra space.\n",
     "31-74": "For **LeetCode #74 Search a 2D Matrix**, treat the matrix as if it were one sorted 1D array without actually flattening it. Since each row is sorted and the first element of every row is greater than the last element of the previous row, normal binary search works over indices `0` to `m*n - 1`. For a flattened index `mid`, convert it back to matrix coordinates using `row = mid / n` and `col = mid % n`, where `n` is the number of columns. Division tells us how many complete rows have been crossed, while modulo gives the position inside the current row. Then compare `matrix[row][col]` with `target` and update the binary-search boundaries normally. This gives **O(log(m*n))** time and **O(1)** extra space.\n",
-    "31-36": ""
+    "31-36": "For **LeetCode #36 Valid Sudoku**, use three arrays of sets: one for each row, one for each column, and one for each 3×3 box. Traverse every cell; if the cell contains `'.'`, skip it. For a digit `c`, compute its box index using `box = (i / 3) * 3 + (j / 3)`. Before inserting the digit, check whether it already exists in `rows[i]`, `cols[j]`, or `boxes[box]`; if it exists in any one of them, the Sudoku is invalid, so return `false`. Otherwise insert it into all three sets and continue. If the full board is traversed without finding any duplicate, return `true`. Since the board is fixed at 9×9, time and space are effectively **O(1)**.\n"
   },
   "dailyGoal": 2,
   "streakFreeze": 0

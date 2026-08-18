@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-18T09:44:41.492Z",
+  "updatedAt": "2026-08-18T10:11:37.085Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -490,6 +490,11 @@
     "31-48": {
       "completedAt": "2026-08-18T09:44:22.530Z",
       "title": "Rotate Image",
+      "topic": "Matrix Traversal and Transformation"
+    },
+    "31-73": {
+      "completedAt": "2026-08-18T10:11:34.472Z",
+      "title": "Set Matrix Zeroes",
       "topic": "Matrix Traversal and Transformation"
     }
   },

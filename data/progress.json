@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-18T10:11:38.575Z",
+  "updatedAt": "2026-08-18T10:26:11.348Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -495,6 +495,11 @@
     "31-73": {
       "completedAt": "2026-08-18T10:11:34.472Z",
       "title": "Set Matrix Zeroes",
+      "topic": "Matrix Traversal and Transformation"
+    },
+    "31-74": {
+      "completedAt": "2026-08-18T10:26:07.742Z",
+      "title": "Search a 2D Matrix",
       "topic": "Matrix Traversal and Transformation"
     }
   },

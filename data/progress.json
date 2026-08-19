@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T10:05:57.785Z",
+  "updatedAt": "2026-08-19T10:41:54.318Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -525,6 +525,11 @@
     "7-724": {
       "completedAt": "2026-08-19T10:05:52.829Z",
       "title": "Find Pivot Index",
+      "topic": "Prefix Sum / Running Sum"
+    },
+    "7-930": {
+      "completedAt": "2026-08-19T10:41:51.390Z",
+      "title": "Binary Subarrays With Sum",
       "topic": "Prefix Sum / Running Sum"
     }
   },

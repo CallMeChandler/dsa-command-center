@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-18T13:38:54.053Z",
+  "updatedAt": "2026-08-19T08:50:30.231Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -511,6 +511,11 @@
       "completedAt": "2026-08-18T13:38:13.009Z",
       "title": "Game of Life",
       "topic": "Matrix Traversal and Transformation"
+    },
+    "7-303": {
+      "completedAt": "2026-08-19T08:50:26.638Z",
+      "title": "Range Sum Query - Immutable",
+      "topic": "Prefix Sum / Running Sum"
     }
   },
   "notes": {

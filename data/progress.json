@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T10:42:03.916Z",
+  "updatedAt": "2026-08-19T13:11:43.529Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -530,6 +530,11 @@
     "7-930": {
       "completedAt": "2026-08-19T10:41:51.390Z",
       "title": "Binary Subarrays With Sum",
+      "topic": "Prefix Sum / Running Sum"
+    },
+    "7-974": {
+      "completedAt": "2026-08-19T13:11:41.169Z",
+      "title": "Subarray Sums Divisible by K",
       "topic": "Prefix Sum / Running Sum"
     }
   },

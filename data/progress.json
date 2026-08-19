@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T09:28:35.712Z",
+  "updatedAt": "2026-08-19T10:05:56.768Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -520,6 +520,11 @@
     "7-560": {
       "completedAt": "2026-08-19T09:28:30.965Z",
       "title": "Subarray Sum Equals K",
+      "topic": "Prefix Sum / Running Sum"
+    },
+    "7-724": {
+      "completedAt": "2026-08-19T10:05:52.829Z",
+      "title": "Find Pivot Index",
       "topic": "Prefix Sum / Running Sum"
     }
   },

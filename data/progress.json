@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T14:24:39.487Z",
+  "updatedAt": "2026-08-20T05:47:22.946Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -541,6 +541,11 @@
       "completedAt": "2026-08-19T14:24:34.454Z",
       "title": "Continuous Subarray Sum",
       "topic": "Prefix Sum / Running Sum"
+    },
+    "18-46": {
+      "completedAt": "2026-08-20T05:47:16.932Z",
+      "title": "Permutations",
+      "topic": "Backtracking Basics"
     }
   },
   "notes": {

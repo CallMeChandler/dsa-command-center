@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-20T08:59:38.562Z",
+  "updatedAt": "2026-08-20T14:14:08.720Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -565,6 +565,11 @@
     "18-90": {
       "completedAt": "2026-08-20T08:59:07.099Z",
       "title": "Subsets II",
+      "topic": "Backtracking Basics"
+    },
+    "18-39": {
+      "completedAt": "2026-08-20T14:14:05.367Z",
+      "title": "Combination Sum",
       "topic": "Backtracking Basics"
     }
   },

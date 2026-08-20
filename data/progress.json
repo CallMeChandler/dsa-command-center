@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-20T05:49:26.249Z",
+  "updatedAt": "2026-08-20T06:08:53.439Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -545,6 +545,11 @@
     "18-46": {
       "completedAt": "2026-08-20T05:47:16.932Z",
       "title": "Permutations",
+      "topic": "Backtracking Basics"
+    },
+    "18-47": {
+      "completedAt": "2026-08-20T06:08:50.127Z",
+      "title": "Permutations II",
       "topic": "Backtracking Basics"
     }
   },

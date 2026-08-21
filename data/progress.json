@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-20T14:14:09.848Z",
+  "updatedAt": "2026-08-21T10:57:14.995Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -571,6 +571,11 @@
       "completedAt": "2026-08-20T14:14:05.367Z",
       "title": "Combination Sum",
       "topic": "Backtracking Basics"
+    },
+    "10-239": {
+      "completedAt": "2026-08-21T10:57:12.742Z",
+      "title": "Sliding Window Maximum",
+      "topic": "Monotonic Queue / Deque"
     }
   },
   "notes": {

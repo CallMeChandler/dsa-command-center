@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-21T14:26:41.368Z",
+  "updatedAt": "2026-08-22T10:07:38.789Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -581,6 +581,11 @@
       "completedAt": "2026-08-21T14:26:38.145Z",
       "title": "Shortest Subarray with Sum at Least K",
       "topic": "Monotonic Queue / Deque"
+    },
+    "14-92": {
+      "completedAt": "2026-08-22T10:07:34.863Z",
+      "title": "Reverse Linked List II",
+      "topic": "Linked List Manipulation"
     }
   },
   "notes": {

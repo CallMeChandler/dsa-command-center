@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-22T10:49:53.922Z",
+  "updatedAt": "2026-08-22T12:41:55.524Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -591,6 +591,11 @@
       "completedAt": "2026-08-22T10:49:49.092Z",
       "title": "Copy List with Random Pointer",
       "topic": "Linked List Manipulation"
+    },
+    "25-208": {
+      "completedAt": "2026-08-22T12:41:51.091Z",
+      "title": "Implement Trie (Prefix Tree)",
+      "topic": "Trie"
     }
   },
   "notes": {

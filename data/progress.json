@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-22T12:41:55.524Z",
+  "updatedAt": "2026-08-23T10:56:59.807Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -596,6 +596,11 @@
       "completedAt": "2026-08-22T12:41:51.091Z",
       "title": "Implement Trie (Prefix Tree)",
       "topic": "Trie"
+    },
+    "30-53": {
+      "completedAt": "2026-08-23T10:56:57.111Z",
+      "title": "Maximum Subarray",
+      "topic": "Kadane and Subarray Optimisation"
     }
   },
   "notes": {

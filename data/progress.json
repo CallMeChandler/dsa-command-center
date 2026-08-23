@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-23T15:50:24.591Z",
+  "updatedAt": "2026-08-23T16:59:11.380Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -615,6 +615,11 @@
     "30-152": {
       "completedAt": "2026-08-23T15:50:21.428Z",
       "title": "Maximum Product Subarray",
+      "topic": "Kadane and Subarray Optimisation"
+    },
+    "30-1567": {
+      "completedAt": "2026-08-23T16:59:08.133Z",
+      "title": "Maximum Length of Subarray With Positive Product",
       "topic": "Kadane and Subarray Optimisation"
     }
   },

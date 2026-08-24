@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-24T07:02:57.699Z",
+  "updatedAt": "2026-08-24T09:57:53.655Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -625,6 +625,11 @@
     "13-406": {
       "completedAt": "2026-08-24T07:01:39.137Z",
       "title": "Queue Reconstruction by Height",
+      "topic": "Greedy Scheduling / Sorting"
+    },
+    "13-763": {
+      "completedAt": "2026-08-24T09:57:50.751Z",
+      "title": "Partition Labels",
       "topic": "Greedy Scheduling / Sorting"
     }
   },

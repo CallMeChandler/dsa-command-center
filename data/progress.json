@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-24T09:58:04.675Z",
+  "updatedAt": "2026-08-25T10:22:36.353Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -631,6 +631,11 @@
       "completedAt": "2026-08-24T09:57:50.751Z",
       "title": "Partition Labels",
       "topic": "Greedy Scheduling / Sorting"
+    },
+    "1-76": {
+      "completedAt": "2026-08-25T10:22:33.036Z",
+      "title": "Minimum Window Substring",
+      "topic": "Sliding Window"
     }
   },
   "notes": {

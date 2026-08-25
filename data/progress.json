@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-25T10:22:37.966Z",
+  "updatedAt": "2026-08-25T13:03:40.889Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -636,6 +636,11 @@
       "completedAt": "2026-08-25T10:22:33.036Z",
       "title": "Minimum Window Substring",
       "topic": "Sliding Window"
+    },
+    "6-49": {
+      "completedAt": "2026-08-25T13:03:37.439Z",
+      "title": "Group Anagrams",
+      "topic": "Hashing / Frequency Maps"
     }
   },
   "notes": {

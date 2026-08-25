@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-25T13:05:17.210Z",
+  "updatedAt": "2026-08-25T13:13:42.334Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -645,6 +645,11 @@
     "6-242": {
       "completedAt": "2026-08-25T13:05:02.590Z",
       "title": "Valid Anagram",
+      "topic": "Hashing / Frequency Maps"
+    },
+    "6-217": {
+      "completedAt": "2026-08-25T13:13:38.867Z",
+      "title": "Contains Duplicate",
       "topic": "Hashing / Frequency Maps"
     }
   },

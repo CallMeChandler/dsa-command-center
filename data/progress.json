@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-25T13:35:53.033Z",
+  "updatedAt": "2026-08-26T11:04:49.275Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -656,6 +656,11 @@
       "completedAt": "2026-08-25T13:35:45.176Z",
       "title": "Longest Consecutive Sequence",
       "topic": "Hashing / Frequency Maps"
+    },
+    "19-40": {
+      "completedAt": "2026-08-26T11:04:43.412Z",
+      "title": "Combination Sum II",
+      "topic": "Backtracking with Constraints"
     }
   },
   "notes": {

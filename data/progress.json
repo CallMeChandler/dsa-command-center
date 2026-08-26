@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-26T11:04:54.765Z",
+  "updatedAt": "2026-08-26T12:57:29.970Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -660,6 +660,11 @@
     "19-40": {
       "completedAt": "2026-08-26T11:04:43.412Z",
       "title": "Combination Sum II",
+      "topic": "Backtracking with Constraints"
+    },
+    "19-79": {
+      "completedAt": "2026-08-26T12:57:25.210Z",
+      "title": "Word Search",
       "topic": "Backtracking with Constraints"
     }
   },

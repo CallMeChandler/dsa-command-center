@@ -1,16 +1,11 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-26T12:57:37.610Z",
+  "updatedAt": "2026-08-26T12:57:51.275Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
       "title": "Remove Nth Node From End of List",
       "topic": "Fast/Slow Pointers (Linked List)"
-    },
-    "19-17": {
-      "completedAt": "2026-07-28T19:38:55.297Z",
-      "title": "Letter Combinations of a Phone Number",
-      "topic": "Backtracking with Constraints"
     },
     "8-1094": {
       "completedAt": "2026-07-29T08:47:27.894Z",

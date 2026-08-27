@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-26T13:42:51.446Z",
+  "updatedAt": "2026-08-27T09:11:21.447Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -665,6 +665,11 @@
     "19-17": {
       "completedAt": "2026-08-26T12:57:50.210Z",
       "title": "Letter Combinations of a Phone Number",
+      "topic": "Backtracking with Constraints"
+    },
+    "19-51": {
+      "completedAt": "2026-08-27T09:11:15.652Z",
+      "title": "N-Queens",
       "topic": "Backtracking with Constraints"
     }
   },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-27T10:05:05.254Z",
+  "updatedAt": "2026-08-27T10:12:58.472Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -675,6 +675,11 @@
     "19-131": {
       "completedAt": "2026-08-27T10:04:47.818Z",
       "title": "Palindrome Partitioning",
+      "topic": "Backtracking with Constraints"
+    },
+    "19-52": {
+      "completedAt": "2026-08-27T10:12:55.132Z",
+      "title": "N-Queens II",
       "topic": "Backtracking with Constraints"
     }
   },

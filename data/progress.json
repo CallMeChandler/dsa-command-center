@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-28T09:50:41.823Z",
+  "updatedAt": "2026-08-28T11:24:42.068Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -685,6 +685,11 @@
     "29-121": {
       "completedAt": "2026-08-28T09:47:42.763Z",
       "title": "Best Time to Buy and Sell Stock",
+      "topic": "Array Scanning and Running State"
+    },
+    "29-1299": {
+      "completedAt": "2026-08-28T11:24:38.308Z",
+      "title": "Replace Elements with Greatest Element on Right Side",
       "topic": "Array Scanning and Running State"
     }
   },

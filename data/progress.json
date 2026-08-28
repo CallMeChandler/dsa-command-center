@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-28T12:09:00.162Z",
+  "updatedAt": "2026-08-28T12:42:16.006Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -695,6 +695,11 @@
     "29-2016": {
       "completedAt": "2026-08-28T12:08:45.517Z",
       "title": "Maximum Difference Between Increasing Elements",
+      "topic": "Array Scanning and Running State"
+    },
+    "29-334": {
+      "completedAt": "2026-08-28T12:42:13.015Z",
+      "title": "Increasing Triplet Subsequence",
       "topic": "Array Scanning and Running State"
     }
   },

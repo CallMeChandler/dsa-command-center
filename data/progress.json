@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-28T12:42:18.806Z",
+  "updatedAt": "2026-08-28T13:51:19.185Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -700,6 +700,11 @@
     "29-334": {
       "completedAt": "2026-08-28T12:42:13.015Z",
       "title": "Increasing Triplet Subsequence",
+      "topic": "Array Scanning and Running State"
+    },
+    "29-55": {
+      "completedAt": "2026-08-28T13:51:15.468Z",
+      "title": "Jump Game",
       "topic": "Array Scanning and Running State"
     }
   },

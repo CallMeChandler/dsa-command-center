@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-28T11:25:05.176Z",
+  "updatedAt": "2026-08-28T12:08:48.807Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -690,6 +690,11 @@
     "29-1299": {
       "completedAt": "2026-08-28T11:24:38.308Z",
       "title": "Replace Elements with Greatest Element on Right Side",
+      "topic": "Array Scanning and Running State"
+    },
+    "29-2016": {
+      "completedAt": "2026-08-28T12:08:45.517Z",
+      "title": "Maximum Difference Between Increasing Elements",
       "topic": "Array Scanning and Running State"
     }
   },

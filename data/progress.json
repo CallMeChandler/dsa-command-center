@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-30T08:26:52.131Z",
+  "updatedAt": "2026-08-30T09:28:47.488Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -715,6 +715,11 @@
     "34-705": {
       "completedAt": "2026-08-30T08:26:42.247Z",
       "title": "Design HashSet",
+      "topic": "Data-Structure Design"
+    },
+    "34-706": {
+      "completedAt": "2026-08-30T09:28:44.057Z",
+      "title": "Design HashMap",
       "topic": "Data-Structure Design"
     }
   },

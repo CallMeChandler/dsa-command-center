@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-30T11:52:28.133Z",
+  "updatedAt": "2026-08-30T13:42:17.809Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -730,6 +730,11 @@
     "34-380": {
       "completedAt": "2026-08-30T11:52:16.593Z",
       "title": "Insert Delete GetRandom O(1)",
+      "topic": "Data-Structure Design"
+    },
+    "34-146": {
+      "completedAt": "2026-08-30T13:42:14.520Z",
+      "title": "LRU Cache",
       "topic": "Data-Structure Design"
     }
   },

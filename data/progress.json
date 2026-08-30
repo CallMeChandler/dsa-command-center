@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-29T09:20:28.564Z",
+  "updatedAt": "2026-08-30T08:26:52.131Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -711,6 +711,11 @@
       "completedAt": "2026-08-29T09:19:52.142Z",
       "title": "Valid Palindrome",
       "topic": "String Parsing and Manipulation"
+    },
+    "34-705": {
+      "completedAt": "2026-08-30T08:26:42.247Z",
+      "title": "Design HashSet",
+      "topic": "Data-Structure Design"
     }
   },
   "notes": {
@@ -850,7 +855,8 @@
     "29-1299": "        int rightMax=-1;\n\n        for (int i = arr.size()-1; i >= 0; i--){\n            int curr = arr[i];\n            arr[i] = rightMax;\n            rightMax = max(rightMax, curr);\n        }\n\n        return arr;\n\nSimple shite actually!\n\nPattern: Reverse traversal + Running Maximum\n\nUse when: Every index depends on information to its right.",
     "29-2016": "### LeetCode #2016 — Maximum Difference Between Increasing Elements\n\n**Pattern:** Running Minimum / Maximum Difference\n\nWe need to find the maximum `nums[j] - nums[i]` where `i < j` and `nums[i] < nums[j]`.\n\nInstead of checking every pair (`O(n²)`), scan **left → right** while maintaining:\n\n* `mini` → smallest value seen so far on the **left**\n* `ans` → maximum valid difference found so far\n\nFor every `nums[i]`:\n\n1. If `nums[i] > mini`, it forms a valid increasing pair, so calculate `nums[i] - mini`.\n2. Update `ans` with the maximum difference.\n3. Update `mini` with the smallest value seen so far.\n\n**Important:** Calculate the difference **before** updating `mini`, because `mini` must come from an index strictly before `i`.\n\n```cpp\nclass Solution {\npublic:\n    int maximumDifference(vector<int>& nums) {\n        int mini = nums[0];\n        int ans = -1;\n\n        for (int i = 1; i < nums.size(); i++) {\n            if (nums[i] > mini) {\n                ans = max(ans, nums[i] - mini);\n            }\n\n            mini = min(mini, nums[i]);\n        }\n\n        return ans;\n    }\n};\n```\n\n**Why `ans` is needed:** `mini` only stores the best value for a **future pair**. It does not store the best difference found earlier. `ans` remembers the maximum difference throughout the scan.\n\n**Complexity:** `O(n)` time, `O(1)` space.\n\n**Connection:** Same core idea as **LeetCode #121 — Best Time to Buy and Sell Stock**: maintain the minimum value seen so far and maximize the difference with the current value.\n",
     "29-334": "        int first = INT_MAX;\n        int second = INT_MAX;\n\n        for (int x:nums){\n            if (x<=first) first=x;\n            else if (x<=second) second=x;\n            else return true;\n        }\n\n        return false;",
-    "33-125": "Use two pointers and isalnum function with a couple of whiles and if-else's..."
+    "33-125": "Use two pointers and isalnum function with a couple of whiles and if-else's...",
+    "34-705": "### LeetCode 705 — Design HashSet\n\nThe key idea is to use the **key itself as an array index** because the constraint is `0 <= key <= 10^6`. We maintain a boolean array of size `1,000,001`, where `arr[key] = true` means the key exists in the set and `false` means it does not. `add(key)` sets the value to `true`, `remove(key)` sets it to `false`, and `contains(key)` directly returns `arr[key]`. Since array indexing is direct access, all three operations take **O(1) time**. The important design lesson is to always look at the constraints first—when the key range is small enough, direct addressing can be simpler and faster than implementing an actual hash table.\n"
   },
   "dailyGoal": 2,
   "streakFreeze": 0

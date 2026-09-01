@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-01T13:31:14.685Z",
+  "updatedAt": "2026-09-01T14:25:38.473Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -755,6 +755,11 @@
     "35-204": {
       "completedAt": "2026-09-01T13:31:11.935Z",
       "title": "Count Primes",
+      "topic": "Math and Number Manipulation"
+    },
+    "35-172": {
+      "completedAt": "2026-09-01T14:25:34.694Z",
+      "title": "Factorial Trailing Zeroes",
       "topic": "Math and Number Manipulation"
     }
   },

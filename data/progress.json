@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-31T13:44:46.853Z",
+  "updatedAt": "2026-09-01T13:31:14.685Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -750,6 +750,11 @@
     "35-69": {
       "completedAt": "2026-08-31T13:44:38.632Z",
       "title": "Sqrt(x)",
+      "topic": "Math and Number Manipulation"
+    },
+    "35-204": {
+      "completedAt": "2026-09-01T13:31:11.935Z",
+      "title": "Count Primes",
       "topic": "Math and Number Manipulation"
     }
   },

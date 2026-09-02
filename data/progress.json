@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T11:46:26.315Z",
+  "updatedAt": "2026-09-02T14:37:08.217Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -781,6 +781,11 @@
       "completedAt": "2026-09-02T11:46:22.782Z",
       "title": "Design Add and Search Words Data Structure",
       "topic": "Trie"
+    },
+    "26-136": {
+      "completedAt": "2026-09-02T14:37:04.866Z",
+      "title": "Single Number",
+      "topic": "Bit Manipulation"
     }
   },
   "notes": {

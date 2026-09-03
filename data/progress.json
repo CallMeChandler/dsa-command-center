@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T15:12:20.526Z",
+  "updatedAt": "2026-09-03T18:01:06.114Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -790,6 +790,11 @@
     "26-137": {
       "completedAt": "2026-09-02T15:12:10.359Z",
       "title": "Single Number II",
+      "topic": "Bit Manipulation"
+    },
+    "26-191": {
+      "completedAt": "2026-09-03T18:01:03.138Z",
+      "title": "Number of 1 Bits",
       "topic": "Bit Manipulation"
     }
   },

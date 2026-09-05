@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T18:01:06.114Z",
+  "updatedAt": "2026-09-05T14:52:31.560Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -30,11 +30,6 @@
     "2-16": {
       "completedAt": "2026-07-30T13:44:05.235Z",
       "title": "3Sum Closest",
-      "topic": "Two Pointers"
-    },
-    "2-18": {
-      "completedAt": "2026-07-30T14:06:35.440Z",
-      "title": "4Sum",
       "topic": "Two Pointers"
     },
     "2-167": {

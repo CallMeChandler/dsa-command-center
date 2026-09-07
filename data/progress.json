@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T14:52:31.560Z",
+  "updatedAt": "2026-09-07T18:08:29.776Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -791,6 +791,11 @@
       "completedAt": "2026-09-03T18:01:03.138Z",
       "title": "Number of 1 Bits",
       "topic": "Bit Manipulation"
+    },
+    "2-18": {
+      "completedAt": "2026-09-07T18:08:28.529Z",
+      "title": "4Sum",
+      "topic": "Two Pointers"
     }
   },
   "notes": {

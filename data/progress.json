@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T18:08:06.143Z",
+  "updatedAt": "2026-09-12T10:06:00.868Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -791,6 +791,11 @@
       "completedAt": "2026-09-09T18:08:04.140Z",
       "title": "3Sum Closest",
       "topic": "Two Pointers"
+    },
+    "21-207": {
+      "completedAt": "2026-09-12T10:05:57.125Z",
+      "title": "Course Schedule",
+      "topic": "Topological Sort / DAG"
     }
   },
   "notes": {

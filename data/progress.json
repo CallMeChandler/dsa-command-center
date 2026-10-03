@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T09:39:19.673Z",
+  "updatedAt": "2026-10-03T11:04:19.543Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -800,6 +800,11 @@
     "23-743": {
       "completedAt": "2026-10-03T09:39:16.460Z",
       "title": "Network Delay Time",
+      "topic": "Shortest Path"
+    },
+    "23-787": {
+      "completedAt": "2026-10-03T11:04:16.536Z",
+      "title": "Cheapest Flights Within K Stops",
       "topic": "Shortest Path"
     }
   },

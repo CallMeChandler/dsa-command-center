@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-12T10:06:00.868Z",
+  "updatedAt": "2026-10-03T09:39:19.673Z",
   "completed": {
     "3-19": {
       "completedAt": "2026-07-28T17:14:41.843Z",
@@ -796,6 +796,11 @@
       "completedAt": "2026-09-12T10:05:57.125Z",
       "title": "Course Schedule",
       "topic": "Topological Sort / DAG"
+    },
+    "23-743": {
+      "completedAt": "2026-10-03T09:39:16.460Z",
+      "title": "Network Delay Time",
+      "topic": "Shortest Path"
     }
   },
   "notes": {
